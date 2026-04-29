@@ -1,0 +1,21 @@
+{
+  "ticker": "TPL",
+  "thread_id": "TPL_0000000000-20-005339",
+  "forms_in_thread": [
+    "UPLOAD",
+    "UPLOAD",
+    "SEC STAFF ACTION"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "STAFF_ACTION"
+  ],
+  "accessions": [
+    "0000000000-20-005339",
+    "0000000000-20-006386",
+    "9999999997-20-005950"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

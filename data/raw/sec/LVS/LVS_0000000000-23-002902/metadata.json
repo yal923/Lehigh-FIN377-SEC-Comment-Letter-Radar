@@ -1,0 +1,33 @@
+{
+  "ticker": "LVS",
+  "thread_id": "LVS_0000000000-23-002902",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-23-002902",
+    "0001300514-23-000030",
+    "0000000000-23-007037",
+    "0001300514-23-000086",
+    "0000000000-23-012570",
+    "0001300514-23-000102",
+    "0000000000-23-013299"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

@@ -1,0 +1,21 @@
+{
+  "ticker": "AFL",
+  "thread_id": "AFL_0000000000-17-014838",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-17-014838",
+    "0000004977-17-000123",
+    "0000000000-17-017789"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

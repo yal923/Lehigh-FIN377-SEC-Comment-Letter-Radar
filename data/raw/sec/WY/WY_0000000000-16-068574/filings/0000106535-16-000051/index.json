@@ -1,0 +1,38 @@
+{
+  "directory": {
+    "item": [
+      {
+        "last-modified": "2016-03-22 19:12:05",
+        "name": "0000106535-16-000051-index-headers.html",
+        "type": "text.gif",
+        "size": ""
+      },
+      {
+        "last-modified": "2016-03-22 19:12:05",
+        "name": "0000106535-16-000051-index.html",
+        "type": "text.gif",
+        "size": ""
+      },
+      {
+        "last-modified": "2016-03-22 19:12:05",
+        "name": "0000106535-16-000051.txt",
+        "type": "text.gif",
+        "size": ""
+      },
+      {
+        "last-modified": "2016-03-22 19:12:05",
+        "name": "filename1.htm",
+        "type": "text.gif",
+        "size": "7894"
+      },
+      {
+        "last-modified": "2016-03-22 19:12:05",
+        "name": "weyerhaeuserlogo2015.jpg",
+        "type": "image2.gif",
+        "size": "83605"
+      }
+    ],
+    "name": "/Archives/edgar/data/106535/000010653516000051",
+    "parent-dir": "/Archives/edgar/data/106535"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "ticker": "CIEN",
+  "thread_id": "CIEN_0000000000-16-069477",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-16-069477",
+    "0000936395-16-000085",
+    "0000936395-16-000089",
+    "0000000000-16-072112"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

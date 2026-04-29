@@ -1,0 +1,27 @@
+{
+  "ticker": "STE",
+  "thread_id": "STE_0000000000-24-003167",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-24-003167",
+    "0001757898-24-000003",
+    "0000000000-24-004219",
+    "0001757898-24-000007",
+    "0000000000-24-005875"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

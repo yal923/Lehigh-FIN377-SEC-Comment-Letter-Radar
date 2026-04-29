@@ -1,0 +1,21 @@
+{
+  "ticker": "WM",
+  "thread_id": "WM_0000000000-22-003136",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-22-003136",
+    "0001558370-22-004590",
+    "0000000000-22-003435"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

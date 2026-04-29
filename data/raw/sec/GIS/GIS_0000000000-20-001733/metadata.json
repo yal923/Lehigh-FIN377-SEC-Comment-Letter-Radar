@@ -1,0 +1,24 @@
+{
+  "ticker": "GIS",
+  "thread_id": "GIS_0000000000-20-001733",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-20-001733",
+    "0001193125-20-077288",
+    "0001193125-20-084774",
+    "0000000000-20-002849"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

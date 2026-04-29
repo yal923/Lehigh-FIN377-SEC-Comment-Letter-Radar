@@ -1,0 +1,27 @@
+{
+  "ticker": "AON",
+  "thread_id": "AON_0000000000-17-045347",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-17-045347",
+    "0001193125-18-010012",
+    "0000000000-18-003393",
+    "0001193125-18-100977",
+    "0000000000-18-010487"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

@@ -1,0 +1,21 @@
+{
+  "ticker": "CDNS",
+  "thread_id": "CDNS_0000000000-23-011586",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-23-011586",
+    "0000813672-23-000084",
+    "0000000000-23-012688"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

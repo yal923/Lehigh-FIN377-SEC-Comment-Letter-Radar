@@ -1,0 +1,21 @@
+{
+  "ticker": "CARR",
+  "thread_id": "CARR_0000000000-24-006263",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-24-006263",
+    "0001783180-24-000064",
+    "0000000000-24-007992"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

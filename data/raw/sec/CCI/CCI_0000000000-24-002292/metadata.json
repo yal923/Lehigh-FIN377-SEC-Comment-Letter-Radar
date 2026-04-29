@@ -1,0 +1,48 @@
+{
+  "ticker": "CCI",
+  "thread_id": "CCI_0000000000-24-002292",
+  "forms_in_thread": [
+    "UPLOAD",
+    "UPLOAD",
+    "UPLOAD",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "UPLOAD",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-24-002292",
+    "0000000000-24-002478",
+    "0000000000-24-002523",
+    "0000000000-24-003517",
+    "0000950142-24-000938",
+    "0000000000-24-003703",
+    "0000000000-24-005098",
+    "0000000000-24-005148",
+    "0000950142-24-001340",
+    "0000000000-24-005889",
+    "0001051470-24-000169",
+    "0000000000-24-006659"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

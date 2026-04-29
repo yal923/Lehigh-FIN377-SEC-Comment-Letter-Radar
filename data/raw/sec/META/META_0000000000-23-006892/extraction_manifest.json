@@ -1,0 +1,28 @@
+[
+  {
+    "accessionNumber":"0000000000-23-006892",
+    "filingDate":"2023-06-28T00:00:00.000",
+    "acceptanceDateTime":"2023-06-28T20:30:08.000Z",
+    "form":"UPLOAD",
+    "fileNumber":"",
+    "primaryDocument":"filename1.pdf",
+    "primaryDocDescription":"",
+    "isXBRL":0,
+    "isInlineXBRL":0,
+    "source_file":"CIK0001326801-submissions-001.json",
+    "normalized_form":"STAFF_LETTER",
+    "form_role":"event_anchor",
+    "ticker":"META",
+    "cik":"0001326801",
+    "firm_name":"Meta Platforms",
+    "industry":"Communication Services",
+    "thread_id":"META_0000000000-23-006892",
+    "qa_status":"thread_anchor",
+    "document_name":"filename1.pdf",
+    "document_url":"https:\/\/www.sec.gov\/Archives\/edgar\/data\/1326801\/000000000023006892\/filename1.pdf",
+    "raw_document_path":"data\/raw\/sec\/META\/META_0000000000-23-006892\/filings\/0000000000-23-006892\/filename1.pdf",
+    "extracted_text_path":"data\/raw\/sec\/META\/META_0000000000-23-006892\/extracted_text\/0000000000-23-006892.txt",
+    "extraction_status":"ok",
+    "letter_word_count_file":103
+  }
+]

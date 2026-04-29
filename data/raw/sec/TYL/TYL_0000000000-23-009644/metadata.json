@@ -1,0 +1,27 @@
+{
+  "ticker": "TYL",
+  "thread_id": "TYL_0000000000-23-009644",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "UPLOAD",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-23-009644",
+    "0000860731-23-000030",
+    "0000000000-23-010272",
+    "0000000000-24-004777",
+    "0000000000-24-005814"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

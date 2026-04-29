@@ -1,0 +1,38 @@
+{
+  "directory": {
+    "item": [
+      {
+        "last-modified": "2018-01-05 11:01:03",
+        "name": "0000007084-18-000005-index-headers.html",
+        "type": "text.gif",
+        "size": ""
+      },
+      {
+        "last-modified": "2018-01-05 11:01:03",
+        "name": "0000007084-18-000005-index.html",
+        "type": "text.gif",
+        "size": ""
+      },
+      {
+        "last-modified": "2018-01-05 11:01:03",
+        "name": "0000007084-18-000005.txt",
+        "type": "text.gif",
+        "size": ""
+      },
+      {
+        "last-modified": "2018-01-05 11:01:03",
+        "name": "admlogo13.jpg",
+        "type": "image2.gif",
+        "size": "70449"
+      },
+      {
+        "last-modified": "2018-01-05 11:01:03",
+        "name": "filename1.htm",
+        "type": "text.gif",
+        "size": "31006"
+      }
+    ],
+    "name": "/Archives/edgar/data/7084/000000708418000005",
+    "parent-dir": "/Archives/edgar/data/7084"
+  }
+}

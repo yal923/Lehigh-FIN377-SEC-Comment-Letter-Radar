@@ -1,0 +1,21 @@
+{
+  "ticker": "CCI",
+  "thread_id": "CCI_0000000000-17-015547",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-17-015547",
+    "0001051470-17-000104",
+    "0000000000-17-018545"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

@@ -1,0 +1,5 @@
+form,normalized_form,form_role,filing_count
+UPLOAD,STAFF_LETTER,event_anchor,666
+CORRESP,FILER_RESPONSE,thread_context,504
+SEC STAFF LETTER,STAFF_LETTER,event_anchor,10
+SEC STAFF ACTION,STAFF_ACTION,related_context,5

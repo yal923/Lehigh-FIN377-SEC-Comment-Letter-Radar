@@ -1,0 +1,27 @@
+{
+  "ticker": "BKR",
+  "thread_id": "BKR_0000000000-17-014455",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE"
+  ],
+  "accessions": [
+    "0000000000-17-014455",
+    "0001193125-17-163634",
+    "0000000000-17-017985",
+    "0001193125-17-182757",
+    "0001193125-17-185516"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

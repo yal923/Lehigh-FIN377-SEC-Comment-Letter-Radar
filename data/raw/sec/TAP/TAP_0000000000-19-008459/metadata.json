@@ -1,0 +1,21 @@
+{
+  "ticker": "TAP",
+  "thread_id": "TAP_0000000000-19-008459",
+  "forms_in_thread": [
+    "UPLOAD",
+    "UPLOAD",
+    "CORRESP"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "FILER_RESPONSE"
+  ],
+  "accessions": [
+    "0000000000-19-008459",
+    "0000000000-19-008905",
+    "0001104659-19-031311"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

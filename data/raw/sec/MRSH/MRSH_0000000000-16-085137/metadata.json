@@ -1,0 +1,27 @@
+{
+  "ticker": "MRSH",
+  "thread_id": "MRSH_0000000000-16-085137",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-16-085137",
+    "0000062709-16-000064",
+    "0000062709-16-000070",
+    "0000062709-16-000072",
+    "0000000000-16-090717"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

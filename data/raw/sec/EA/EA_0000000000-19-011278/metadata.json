@@ -1,0 +1,33 @@
+{
+  "ticker": "EA",
+  "thread_id": "EA_0000000000-19-011278",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-19-011278",
+    "0000712515-19-000044",
+    "0000000000-19-012943",
+    "0000712515-19-000115",
+    "0000000000-19-015037",
+    "0000712515-19-000134",
+    "0000000000-19-016745"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

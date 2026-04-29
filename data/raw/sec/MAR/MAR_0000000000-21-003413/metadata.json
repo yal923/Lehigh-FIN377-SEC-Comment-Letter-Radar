@@ -1,0 +1,27 @@
+{
+  "ticker": "MAR",
+  "thread_id": "MAR_0000000000-21-003413",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-21-003413",
+    "0001628280-21-005591",
+    "0000000000-21-003857",
+    "0001628280-21-006442",
+    "0000000000-21-004479"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

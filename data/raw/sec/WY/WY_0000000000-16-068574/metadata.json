@@ -1,0 +1,30 @@
+{
+  "ticker": "WY",
+  "thread_id": "WY_0000000000-16-068574",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-16-068574",
+    "0000106535-16-000051",
+    "0000106535-16-000055",
+    "0000000000-16-073637",
+    "0000106535-16-000064",
+    "0000000000-16-079187"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

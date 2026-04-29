@@ -1,0 +1,8 @@
+.venv/
+.envrc
+AGENTS.md
+agents.md
+.DS_Store
+__pycache__/
+*.pyc
+Archive Prototype/

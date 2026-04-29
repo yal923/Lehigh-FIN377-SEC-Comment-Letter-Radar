@@ -1,0 +1,27 @@
+{
+  "ticker": "KMI",
+  "thread_id": "KMI_0000000000-16-082397",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-16-082397",
+    "0001506307-16-000098",
+    "0000000000-16-086243",
+    "0001506307-16-000108",
+    "0000000000-16-089887"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

@@ -1,0 +1,39 @@
+{
+  "ticker": "LHX",
+  "thread_id": "LHX_0000000000-20-000514",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-20-000514",
+    "0000202058-20-000002",
+    "0000202058-20-000009",
+    "0000000000-20-002109",
+    "0000202058-20-000020",
+    "0000202058-20-000023",
+    "0001140361-20-007173",
+    "0001140361-20-007177",
+    "0000000000-20-002751"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

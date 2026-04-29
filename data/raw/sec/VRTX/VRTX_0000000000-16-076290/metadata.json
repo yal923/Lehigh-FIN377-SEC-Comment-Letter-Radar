@@ -1,0 +1,48 @@
+{
+  "ticker": "VRTX",
+  "thread_id": "VRTX_0000000000-16-076290",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-16-076290",
+    "0000875320-16-000081",
+    "0000000000-16-082877",
+    "0000875320-16-000085",
+    "0000875320-16-000093",
+    "0000000000-16-095559",
+    "0000875320-16-000100",
+    "0000875320-16-000102",
+    "0000000000-16-103513",
+    "0000875320-16-000115",
+    "0000875320-17-000011",
+    "0000000000-17-005684"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

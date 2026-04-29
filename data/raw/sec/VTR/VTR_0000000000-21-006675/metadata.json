@@ -1,0 +1,33 @@
+{
+  "ticker": "VTR",
+  "thread_id": "VTR_0000000000-21-006675",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "UPLOAD",
+    "CORRESP"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "FILER_RESPONSE"
+  ],
+  "accessions": [
+    "0000000000-21-006675",
+    "0001104659-21-078293",
+    "0000000000-21-007440",
+    "0001104659-21-087583",
+    "0000000000-21-008146",
+    "0000000000-21-009587",
+    "0001104659-21-102292"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

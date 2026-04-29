@@ -1,0 +1,33 @@
+{
+  "ticker": "BRK-B",
+  "thread_id": "BRK-B_0000000000-17-008779",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-17-008779",
+    "0001193125-17-086998",
+    "0001193125-17-124701",
+    "0000000000-17-016786",
+    "0001193125-17-170929",
+    "0001193125-17-192965",
+    "0000000000-17-022856"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

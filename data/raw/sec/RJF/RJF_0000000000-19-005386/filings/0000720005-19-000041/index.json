@@ -1,0 +1,38 @@
+{
+  "directory": {
+    "item": [
+      {
+        "last-modified": "2019-05-08 13:46:45",
+        "name": "0000720005-19-000041-index-headers.html",
+        "type": "text.gif",
+        "size": ""
+      },
+      {
+        "last-modified": "2019-05-08 13:46:45",
+        "name": "0000720005-19-000041-index.html",
+        "type": "text.gif",
+        "size": ""
+      },
+      {
+        "last-modified": "2019-05-08 13:46:45",
+        "name": "0000720005-19-000041.txt",
+        "type": "text.gif",
+        "size": ""
+      },
+      {
+        "last-modified": "2019-05-08 13:46:45",
+        "name": "filename1.htm",
+        "type": "text.gif",
+        "size": "102837"
+      },
+      {
+        "last-modified": "2019-05-08 13:46:45",
+        "name": "rjflogo05082019.gif",
+        "type": "image2.gif",
+        "size": "2441"
+      }
+    ],
+    "name": "/Archives/edgar/data/720005/000072000519000041",
+    "parent-dir": "/Archives/edgar/data/720005"
+  }
+}

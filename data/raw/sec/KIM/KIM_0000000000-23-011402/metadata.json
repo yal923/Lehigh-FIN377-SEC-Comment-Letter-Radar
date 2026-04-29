@@ -1,0 +1,21 @@
+{
+  "ticker": "KIM",
+  "thread_id": "KIM_0000000000-23-011402",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE"
+  ],
+  "accessions": [
+    "0000000000-23-011402",
+    "0001140361-23-050006",
+    "0001140361-23-051918"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

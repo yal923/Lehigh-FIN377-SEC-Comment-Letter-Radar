@@ -1,0 +1,36 @@
+{
+  "ticker": "HLT",
+  "thread_id": "HLT_0000000000-17-008976",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE"
+  ],
+  "accessions": [
+    "0000000000-17-008976",
+    "0001585689-17-000106",
+    "0000000000-17-013138",
+    "0000000000-17-022436",
+    "0001193125-17-215908",
+    "0001193125-17-215912",
+    "0000000000-19-006764",
+    "0001193125-19-108680"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

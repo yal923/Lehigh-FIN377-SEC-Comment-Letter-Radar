@@ -1,0 +1,51 @@
+{
+  "ticker": "COF",
+  "thread_id": "COF_0000000000-24-005698",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "CORRESP",
+    "CORRESP"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE"
+  ],
+  "accessions": [
+    "0000000000-24-005698",
+    "0001193125-24-161672",
+    "0000000000-24-008006",
+    "0001193125-24-184993",
+    "0000000000-24-008976",
+    "0001193125-24-206256",
+    "0001193125-24-211894",
+    "0000000000-24-010738",
+    "0000000000-24-011568",
+    "0001193125-24-243334",
+    "0001193125-24-243336",
+    "0001193125-24-284257",
+    "0001193125-25-001594"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

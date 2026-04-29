@@ -1,0 +1,36 @@
+{
+  "ticker": "EXPE",
+  "thread_id": "EXPE_0000000000-19-008960",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE"
+  ],
+  "accessions": [
+    "0000000000-19-008960",
+    "0001140361-19-010498",
+    "0001140361-19-011412",
+    "0001193125-19-295597",
+    "0000000000-19-015905",
+    "0001193125-20-043263",
+    "0000000000-21-006081",
+    "0001104659-21-065996"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

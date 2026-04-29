@@ -1,0 +1,42 @@
+{
+  "ticker": "F",
+  "thread_id": "F_0000000000-17-029248",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-17-029248",
+    "0000037996-17-000077",
+    "0000000000-17-039400",
+    "0000037996-17-000104",
+    "0000000000-18-001893",
+    "0000000000-18-011647",
+    "0000037996-18-000031",
+    "0000000000-18-013911",
+    "0000037996-18-000049",
+    "0000000000-18-015811"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

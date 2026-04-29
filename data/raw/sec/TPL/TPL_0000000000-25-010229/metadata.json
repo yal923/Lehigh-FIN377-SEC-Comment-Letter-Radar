@@ -1,0 +1,24 @@
+{
+  "ticker": "TPL",
+  "thread_id": "TPL_0000000000-25-010229",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-25-010229",
+    "0001104659-25-095648",
+    "0001104659-25-098757",
+    "0000000000-25-010920"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

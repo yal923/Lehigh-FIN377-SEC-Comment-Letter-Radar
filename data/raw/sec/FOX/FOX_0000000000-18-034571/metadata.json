@@ -1,0 +1,30 @@
+{
+  "ticker": "FOX",
+  "thread_id": "FOX_0000000000-18-034571",
+  "forms_in_thread": [
+    "UPLOAD",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "SEC STAFF ACTION"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "STAFF_ACTION"
+  ],
+  "accessions": [
+    "0000000000-18-034571",
+    "0000000000-18-038296",
+    "0001193125-19-003900",
+    "0001193125-19-025942",
+    "0000000000-19-000774",
+    "9999999997-19-000126"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

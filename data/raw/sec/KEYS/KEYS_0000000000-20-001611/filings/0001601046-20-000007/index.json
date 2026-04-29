@@ -1,0 +1,38 @@
+{
+  "directory": {
+    "item": [
+      {
+        "last-modified": "2020-03-06 16:46:27",
+        "name": "0001601046-20-000007-index-headers.html",
+        "type": "text.gif",
+        "size": ""
+      },
+      {
+        "last-modified": "2020-03-06 16:46:27",
+        "name": "0001601046-20-000007-index.html",
+        "type": "text.gif",
+        "size": ""
+      },
+      {
+        "last-modified": "2020-03-06 16:46:27",
+        "name": "0001601046-20-000007.txt",
+        "type": "text.gif",
+        "size": ""
+      },
+      {
+        "last-modified": "2020-03-06 16:46:27",
+        "name": "filename1.htm",
+        "type": "text.gif",
+        "size": "39806"
+      },
+      {
+        "last-modified": "2020-03-06 16:46:27",
+        "name": "keysight-logoa02.jpg",
+        "type": "image2.gif",
+        "size": "6876"
+      }
+    ],
+    "name": "/Archives/edgar/data/1601046/000160104620000007",
+    "parent-dir": "/Archives/edgar/data/1601046"
+  }
+}

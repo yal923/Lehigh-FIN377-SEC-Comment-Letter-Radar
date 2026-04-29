@@ -1,0 +1,18 @@
+{
+  "ticker": "NOW",
+  "thread_id": "NOW_0000000000-23-003372",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE"
+  ],
+  "accessions": [
+    "0000000000-23-003372",
+    "0001373715-23-000172"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

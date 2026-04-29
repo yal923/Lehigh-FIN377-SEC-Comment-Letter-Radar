@@ -1,0 +1,24 @@
+{
+  "ticker": "AMT",
+  "thread_id": "AMT_0000000000-23-002236",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-23-002236",
+    "0001053507-23-000094",
+    "0001053507-23-000098",
+    "0000000000-23-003498"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

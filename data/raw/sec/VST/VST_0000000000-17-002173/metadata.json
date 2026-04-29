@@ -1,0 +1,33 @@
+{
+  "ticker": "VST",
+  "thread_id": "VST_0000000000-17-002173",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE"
+  ],
+  "accessions": [
+    "0000000000-17-002173",
+    "0001193125-17-043281",
+    "0000000000-17-006872",
+    "0001193125-17-110860",
+    "0000000000-17-014653",
+    "0001193125-17-152259",
+    "0001193125-17-158689"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

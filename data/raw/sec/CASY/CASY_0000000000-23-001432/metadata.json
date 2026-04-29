@@ -1,0 +1,30 @@
+{
+  "ticker": "CASY",
+  "thread_id": "CASY_0000000000-23-001432",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-23-001432",
+    "0001387131-23-002446",
+    "0001387131-23-002744",
+    "0000000000-23-002639",
+    "0001839882-23-007894",
+    "0000000000-23-003652"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

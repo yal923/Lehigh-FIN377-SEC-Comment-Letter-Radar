@@ -1,0 +1,30 @@
+{
+  "step_id": "04_event_dataset",
+  "step_name": "Thread to Event Dataset",
+  "status": "complete",
+  "source": "data/processed/thread_level and thread_filing_manifest",
+  "output_files": [
+    "data/processed/event_level_raw.csv",
+    "data/processed/event_level_raw.parquet",
+    "data/processed/event_level_base.csv",
+    "data/processed/event_level_base.parquet",
+    "outputs/workflow/04_event_preview.csv",
+    "outputs/tables/event_inclusion_summary.csv",
+    "outputs/workflow/04_event_dataset_summary.json"
+  ],
+  "metrics": {
+    "raw_event_count": 283,
+    "included_event_count": 283,
+    "excluded_event_count": 0,
+    "ticker_count": 93,
+    "industry_count": 11,
+    "duplicate_event_id_count": 0,
+    "mean_thread_duration_days": 75.53,
+    "created_at_utc": "2026-04-29T18:33:31.479129+00:00"
+  },
+  "notes": [
+    "Converted one-row-per-thread records into event-study-ready observations.",
+    "Event date is anchored on the first SEC staff letter in each thread.",
+    "This step does not classify topic or severity; it prepares the clean event base for the next text-feature step."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "ticker": "ESS",
+  "thread_id": "ESS_0000000000-17-010663",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-17-010663",
+    "0001567619-17-000600",
+    "0000000000-17-012291"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

@@ -1,0 +1,33 @@
+{
+  "ticker": "XYL",
+  "thread_id": "XYL_0000000000-24-008323",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-24-008323",
+    "0001524472-24-000028",
+    "0000000000-24-009161",
+    "0001524472-24-000036",
+    "0001524472-24-000038",
+    "0000000000-24-009506",
+    "0000000000-24-010085"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "accessionNumber":"0000000000-18-013115",
+    "filingDate":"2018-04-27T00:00:00.000",
+    "acceptanceDateTime":"2018-04-27T20:03:37.000Z",
+    "form":"UPLOAD",
+    "fileNumber":"",
+    "primaryDocument":"filename1.pdf",
+    "primaryDocDescription":"",
+    "isXBRL":0,
+    "isInlineXBRL":0,
+    "source_file":"company_submissions.json",
+    "normalized_form":"STAFF_LETTER",
+    "form_role":"event_anchor",
+    "ticker":"WYNN",
+    "cik":"0001174922",
+    "firm_name":"Wynn Resorts",
+    "industry":"Consumer Discretionary",
+    "thread_id":"WYNN_0000000000-18-013115",
+    "qa_status":"thread_anchor",
+    "document_name":"filename1.pdf",
+    "document_url":"https:\/\/www.sec.gov\/Archives\/edgar\/data\/1174922\/000000000018013115\/filename1.pdf",
+    "raw_document_path":"data\/raw\/sec\/WYNN\/WYNN_0000000000-18-013115\/filings\/0000000000-18-013115\/filename1.pdf",
+    "extracted_text_path":"data\/raw\/sec\/WYNN\/WYNN_0000000000-18-013115\/extracted_text\/0000000000-18-013115.txt",
+    "extraction_status":"ok",
+    "letter_word_count_file":386
+  }
+]

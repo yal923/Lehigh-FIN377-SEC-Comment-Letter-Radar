@@ -1,0 +1,42 @@
+{
+  "ticker": "OXY",
+  "thread_id": "OXY_0000000000-19-010556",
+  "forms_in_thread": [
+    "UPLOAD",
+    "UPLOAD",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-19-010556",
+    "0000000000-19-010557",
+    "0000000000-19-010746",
+    "0001140361-19-012449",
+    "0001140361-19-012472",
+    "0000000000-19-010856",
+    "0001140361-19-012763",
+    "0000000000-19-012280",
+    "0001140361-19-014897",
+    "0000000000-19-015418"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

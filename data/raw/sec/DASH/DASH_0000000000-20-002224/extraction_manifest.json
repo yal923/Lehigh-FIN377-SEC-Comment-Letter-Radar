@@ -1,0 +1,28 @@
+[
+  {
+    "accessionNumber":"0000000000-20-002224",
+    "filingDate":"2020-03-12T00:00:00.000",
+    "acceptanceDateTime":"2020-03-12T16:16:43.000Z",
+    "form":"UPLOAD",
+    "fileNumber":"",
+    "primaryDocument":"filename1.pdf",
+    "primaryDocDescription":"",
+    "isXBRL":0,
+    "isInlineXBRL":0,
+    "source_file":"CIK0001792789-submissions-001.json",
+    "normalized_form":"STAFF_LETTER",
+    "form_role":"event_anchor",
+    "ticker":"DASH",
+    "cik":"0001792789",
+    "firm_name":"DoorDash",
+    "industry":"Consumer Discretionary",
+    "thread_id":"DASH_0000000000-20-002224",
+    "qa_status":"thread_anchor",
+    "document_name":"filename1.pdf",
+    "document_url":"https:\/\/www.sec.gov\/Archives\/edgar\/data\/1792789\/000000000020002224\/filename1.pdf",
+    "raw_document_path":"data\/raw\/sec\/DASH\/DASH_0000000000-20-002224\/filings\/0000000000-20-002224\/filename1.pdf",
+    "extracted_text_path":"data\/raw\/sec\/DASH\/DASH_0000000000-20-002224\/extracted_text\/0000000000-20-002224.txt",
+    "extraction_status":"ok",
+    "letter_word_count_file":2911
+  }
+]

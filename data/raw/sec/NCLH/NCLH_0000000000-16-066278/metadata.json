@@ -1,0 +1,33 @@
+{
+  "ticker": "NCLH",
+  "thread_id": "NCLH_0000000000-16-066278",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-16-066278",
+    "0001571049-16-012897",
+    "0001571049-16-013296",
+    "0000000000-16-070269",
+    "0001571049-16-013650",
+    "0000000000-16-071266",
+    "0000000000-16-071320"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

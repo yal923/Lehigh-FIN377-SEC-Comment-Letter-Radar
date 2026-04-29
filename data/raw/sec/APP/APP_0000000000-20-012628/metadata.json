@@ -1,0 +1,39 @@
+{
+  "ticker": "APP",
+  "thread_id": "APP_0000000000-20-012628",
+  "forms_in_thread": [
+    "UPLOAD",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "CORRESP"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE"
+  ],
+  "accessions": [
+    "0000000000-20-012628",
+    "0000000000-21-001014",
+    "0001193125-21-069370",
+    "0000000000-21-003287",
+    "0001193125-21-089670",
+    "0000000000-21-003877",
+    "0001193125-21-108121",
+    "0001193125-21-114256",
+    "0001193125-21-114260"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

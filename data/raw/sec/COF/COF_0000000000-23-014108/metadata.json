@@ -1,0 +1,24 @@
+{
+  "ticker": "COF",
+  "thread_id": "COF_0000000000-23-014108",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-23-014108",
+    "0000950103-24-000491",
+    "0000950103-24-001146",
+    "0000000000-24-001251"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

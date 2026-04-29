@@ -1,0 +1,24 @@
+{
+  "ticker": "AVY",
+  "thread_id": "AVY_0000000000-18-009394",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-18-009394",
+    "0001104659-18-021749",
+    "0001104659-18-028354",
+    "0000000000-18-013669"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

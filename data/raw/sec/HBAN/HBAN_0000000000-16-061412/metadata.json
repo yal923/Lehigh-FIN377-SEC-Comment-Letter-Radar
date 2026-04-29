@@ -1,0 +1,30 @@
+{
+  "ticker": "HBAN",
+  "thread_id": "HBAN_0000000000-16-061412",
+  "forms_in_thread": [
+    "UPLOAD",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE"
+  ],
+  "accessions": [
+    "0000000000-16-061412",
+    "0000000000-16-069261",
+    "0001193125-16-530987",
+    "0000000000-16-072562",
+    "0001193125-16-559224",
+    "0001193125-16-562479"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

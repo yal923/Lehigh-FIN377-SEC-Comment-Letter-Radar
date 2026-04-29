@@ -1,0 +1,623 @@
+{
+  "run_mode": "sp500100_10y",
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": null,
+  "sample_seed": 42,
+  "sample_source": "data/raw/reference/sp500_constituents.csv",
+  "selected_tickers": [
+    "A",
+    "ABBV",
+    "ADM",
+    "ADSK",
+    "AFL",
+    "AJG",
+    "ALL",
+    "AMT",
+    "AON",
+    "APP",
+    "AVY",
+    "BBY",
+    "BKR",
+    "BRK-B",
+    "BRO",
+    "BSX",
+    "BXP",
+    "C",
+    "CAH",
+    "CARR",
+    "CASY",
+    "CAT",
+    "CB",
+    "CCI",
+    "CDNS",
+    "CEG",
+    "CHRW",
+    "CIEN",
+    "CMS",
+    "COF",
+    "CTSH",
+    "DASH",
+    "DRI",
+    "EA",
+    "EBAY",
+    "ESS",
+    "ETN",
+    "EXPE",
+    "F",
+    "FCX",
+    "FIX",
+    "FOX",
+    "GIS",
+    "GLW",
+    "HBAN",
+    "HIG",
+    "HLT",
+    "IFF",
+    "ISRG",
+    "ITW",
+    "KEYS",
+    "KIM",
+    "KMI",
+    "LEN",
+    "LHX",
+    "LULU",
+    "LVS",
+    "MAR",
+    "MDLZ",
+    "MET",
+    "META",
+    "MNST",
+    "MRSH",
+    "MS",
+    "MTB",
+    "MU",
+    "NCLH",
+    "NOW",
+    "NRG",
+    "OKE",
+    "OXY",
+    "PODD",
+    "RCL",
+    "RJF",
+    "RMD",
+    "ROK",
+    "ROST",
+    "SBUX",
+    "SMCI",
+    "SO",
+    "SOLV",
+    "STE",
+    "TAP",
+    "TFC",
+    "TPL",
+    "TPR",
+    "TYL",
+    "USB",
+    "VRSK",
+    "VRTX",
+    "VST",
+    "VTR",
+    "WM",
+    "WMT",
+    "WRB",
+    "WY",
+    "WYNN",
+    "XYL",
+    "XYZ",
+    "ZBH"
+  ],
+  "selected_test_tickers": [
+    "TSLA",
+    "META",
+    "NVDA",
+    "AMZN",
+    "JPM"
+  ],
+  "selected_dashboard_tickers": [],
+  "company_metadata": {
+    "A": {
+      "firm_name": "Agilent Technologies",
+      "cik": "0001090872",
+      "industry": "Health Care"
+    },
+    "ABBV": {
+      "firm_name": "AbbVie",
+      "cik": "0001551152",
+      "industry": "Health Care"
+    },
+    "ADM": {
+      "firm_name": "Archer Daniels Midland",
+      "cik": "0000007084",
+      "industry": "Consumer Staples"
+    },
+    "ADSK": {
+      "firm_name": "Autodesk",
+      "cik": "0000769397",
+      "industry": "Information Technology"
+    },
+    "AFL": {
+      "firm_name": "Aflac",
+      "cik": "0000004977",
+      "industry": "Financials"
+    },
+    "AJG": {
+      "firm_name": "Arthur J. Gallagher & Co.",
+      "cik": "0000354190",
+      "industry": "Financials"
+    },
+    "ALL": {
+      "firm_name": "Allstate",
+      "cik": "0000899051",
+      "industry": "Financials"
+    },
+    "AMT": {
+      "firm_name": "American Tower",
+      "cik": "0001053507",
+      "industry": "Real Estate"
+    },
+    "AON": {
+      "firm_name": "Aon plc",
+      "cik": "0000315293",
+      "industry": "Financials"
+    },
+    "APP": {
+      "firm_name": "AppLovin",
+      "cik": "0001751008",
+      "industry": "Information Technology"
+    },
+    "AVY": {
+      "firm_name": "Avery Dennison",
+      "cik": "0000008818",
+      "industry": "Materials"
+    },
+    "BBY": {
+      "firm_name": "Best Buy",
+      "cik": "0000764478",
+      "industry": "Consumer Discretionary"
+    },
+    "BKR": {
+      "firm_name": "Baker Hughes",
+      "cik": "0001701605",
+      "industry": "Energy"
+    },
+    "BRK-B": {
+      "firm_name": "Berkshire Hathaway",
+      "cik": "0001067983",
+      "industry": "Financials"
+    },
+    "BRO": {
+      "firm_name": "Brown & Brown",
+      "cik": "0000079282",
+      "industry": "Financials"
+    },
+    "BSX": {
+      "firm_name": "Boston Scientific",
+      "cik": "0000885725",
+      "industry": "Health Care"
+    },
+    "BXP": {
+      "firm_name": "BXP, Inc.",
+      "cik": "0001037540",
+      "industry": "Real Estate"
+    },
+    "C": {
+      "firm_name": "Citigroup",
+      "cik": "0000831001",
+      "industry": "Financials"
+    },
+    "CAH": {
+      "firm_name": "Cardinal Health",
+      "cik": "0000721371",
+      "industry": "Health Care"
+    },
+    "CARR": {
+      "firm_name": "Carrier Global",
+      "cik": "0001783180",
+      "industry": "Industrials"
+    },
+    "CASY": {
+      "firm_name": "Casey's",
+      "cik": "0000726958",
+      "industry": "Consumer Staples"
+    },
+    "CAT": {
+      "firm_name": "Caterpillar Inc.",
+      "cik": "0000018230",
+      "industry": "Industrials"
+    },
+    "CB": {
+      "firm_name": "Chubb Limited",
+      "cik": "0000896159",
+      "industry": "Financials"
+    },
+    "CCI": {
+      "firm_name": "Crown Castle",
+      "cik": "0001051470",
+      "industry": "Real Estate"
+    },
+    "CDNS": {
+      "firm_name": "Cadence Design Systems",
+      "cik": "0000813672",
+      "industry": "Information Technology"
+    },
+    "CEG": {
+      "firm_name": "Constellation Energy",
+      "cik": "0001868275",
+      "industry": "Utilities"
+    },
+    "CHRW": {
+      "firm_name": "C.H. Robinson",
+      "cik": "0001043277",
+      "industry": "Industrials"
+    },
+    "CIEN": {
+      "firm_name": "Ciena",
+      "cik": "0000936395",
+      "industry": "Information Technology"
+    },
+    "CMS": {
+      "firm_name": "CMS Energy",
+      "cik": "0000811156",
+      "industry": "Utilities"
+    },
+    "COF": {
+      "firm_name": "Capital One",
+      "cik": "0000927628",
+      "industry": "Financials"
+    },
+    "CTSH": {
+      "firm_name": "Cognizant",
+      "cik": "0001058290",
+      "industry": "Information Technology"
+    },
+    "DASH": {
+      "firm_name": "DoorDash",
+      "cik": "0001792789",
+      "industry": "Consumer Discretionary"
+    },
+    "DRI": {
+      "firm_name": "Darden Restaurants",
+      "cik": "0000940944",
+      "industry": "Consumer Discretionary"
+    },
+    "EA": {
+      "firm_name": "Electronic Arts",
+      "cik": "0000712515",
+      "industry": "Communication Services"
+    },
+    "EBAY": {
+      "firm_name": "eBay Inc.",
+      "cik": "0001065088",
+      "industry": "Consumer Discretionary"
+    },
+    "ESS": {
+      "firm_name": "Essex Property Trust",
+      "cik": "0000920522",
+      "industry": "Real Estate"
+    },
+    "ETN": {
+      "firm_name": "Eaton Corporation",
+      "cik": "0001551182",
+      "industry": "Industrials"
+    },
+    "EXPE": {
+      "firm_name": "Expedia Group",
+      "cik": "0001324424",
+      "industry": "Consumer Discretionary"
+    },
+    "F": {
+      "firm_name": "Ford Motor Company",
+      "cik": "0000037996",
+      "industry": "Consumer Discretionary"
+    },
+    "FCX": {
+      "firm_name": "Freeport-McMoRan",
+      "cik": "0000831259",
+      "industry": "Materials"
+    },
+    "FIX": {
+      "firm_name": "Comfort Systems USA",
+      "cik": "0001035983",
+      "industry": "Industrials"
+    },
+    "FOX": {
+      "firm_name": "Fox Corporation (Class B)",
+      "cik": "0001754301",
+      "industry": "Communication Services"
+    },
+    "GIS": {
+      "firm_name": "General Mills",
+      "cik": "0000040704",
+      "industry": "Consumer Staples"
+    },
+    "GLW": {
+      "firm_name": "Corning Inc.",
+      "cik": "0000024741",
+      "industry": "Information Technology"
+    },
+    "HBAN": {
+      "firm_name": "Huntington Bancshares",
+      "cik": "0000049196",
+      "industry": "Financials"
+    },
+    "HIG": {
+      "firm_name": "Hartford (The)",
+      "cik": "0000874766",
+      "industry": "Financials"
+    },
+    "HLT": {
+      "firm_name": "Hilton Worldwide",
+      "cik": "0001585689",
+      "industry": "Consumer Discretionary"
+    },
+    "IFF": {
+      "firm_name": "International Flavors & Fragrances",
+      "cik": "0000051253",
+      "industry": "Materials"
+    },
+    "ISRG": {
+      "firm_name": "Intuitive Surgical",
+      "cik": "0001035267",
+      "industry": "Health Care"
+    },
+    "ITW": {
+      "firm_name": "Illinois Tool Works",
+      "cik": "0000049826",
+      "industry": "Industrials"
+    },
+    "KEYS": {
+      "firm_name": "Keysight Technologies",
+      "cik": "0001601046",
+      "industry": "Information Technology"
+    },
+    "KIM": {
+      "firm_name": "Kimco Realty",
+      "cik": "0000879101",
+      "industry": "Real Estate"
+    },
+    "KMI": {
+      "firm_name": "Kinder Morgan",
+      "cik": "0001506307",
+      "industry": "Energy"
+    },
+    "LEN": {
+      "firm_name": "Lennar",
+      "cik": "0000920760",
+      "industry": "Consumer Discretionary"
+    },
+    "LHX": {
+      "firm_name": "L3Harris",
+      "cik": "0000202058",
+      "industry": "Industrials"
+    },
+    "LULU": {
+      "firm_name": "Lululemon Athletica",
+      "cik": "0001397187",
+      "industry": "Consumer Discretionary"
+    },
+    "LVS": {
+      "firm_name": "Las Vegas Sands",
+      "cik": "0001300514",
+      "industry": "Consumer Discretionary"
+    },
+    "MAR": {
+      "firm_name": "Marriott International",
+      "cik": "0001048286",
+      "industry": "Consumer Discretionary"
+    },
+    "MDLZ": {
+      "firm_name": "Mondelez International",
+      "cik": "0001103982",
+      "industry": "Consumer Staples"
+    },
+    "MET": {
+      "firm_name": "MetLife",
+      "cik": "0001099219",
+      "industry": "Financials"
+    },
+    "META": {
+      "firm_name": "Meta Platforms",
+      "cik": "0001326801",
+      "industry": "Communication Services"
+    },
+    "MNST": {
+      "firm_name": "Monster Beverage",
+      "cik": "0000865752",
+      "industry": "Consumer Staples"
+    },
+    "MRSH": {
+      "firm_name": "Marsh McLennan",
+      "cik": "0000062709",
+      "industry": "Financials"
+    },
+    "MS": {
+      "firm_name": "Morgan Stanley",
+      "cik": "0000895421",
+      "industry": "Financials"
+    },
+    "MTB": {
+      "firm_name": "M&T Bank",
+      "cik": "0000036270",
+      "industry": "Financials"
+    },
+    "MU": {
+      "firm_name": "Micron Technology",
+      "cik": "0000723125",
+      "industry": "Information Technology"
+    },
+    "NCLH": {
+      "firm_name": "Norwegian Cruise Line Holdings",
+      "cik": "0001513761",
+      "industry": "Consumer Discretionary"
+    },
+    "NOW": {
+      "firm_name": "ServiceNow",
+      "cik": "0001373715",
+      "industry": "Information Technology"
+    },
+    "NRG": {
+      "firm_name": "NRG Energy",
+      "cik": "0001013871",
+      "industry": "Utilities"
+    },
+    "OKE": {
+      "firm_name": "Oneok",
+      "cik": "0001039684",
+      "industry": "Energy"
+    },
+    "OXY": {
+      "firm_name": "Occidental Petroleum",
+      "cik": "0000797468",
+      "industry": "Energy"
+    },
+    "PODD": {
+      "firm_name": "Insulet Corporation",
+      "cik": "0001145197",
+      "industry": "Health Care"
+    },
+    "RCL": {
+      "firm_name": "Royal Caribbean Group",
+      "cik": "0000884887",
+      "industry": "Consumer Discretionary"
+    },
+    "RJF": {
+      "firm_name": "Raymond James Financial",
+      "cik": "0000720005",
+      "industry": "Financials"
+    },
+    "RMD": {
+      "firm_name": "ResMed",
+      "cik": "0000943819",
+      "industry": "Health Care"
+    },
+    "ROK": {
+      "firm_name": "Rockwell Automation",
+      "cik": "0001024478",
+      "industry": "Industrials"
+    },
+    "ROST": {
+      "firm_name": "Ross Stores",
+      "cik": "0000745732",
+      "industry": "Consumer Discretionary"
+    },
+    "SBUX": {
+      "firm_name": "Starbucks",
+      "cik": "0000829224",
+      "industry": "Consumer Discretionary"
+    },
+    "SMCI": {
+      "firm_name": "Supermicro",
+      "cik": "0001375365",
+      "industry": "Information Technology"
+    },
+    "SO": {
+      "firm_name": "Southern Company",
+      "cik": "0000092122",
+      "industry": "Utilities"
+    },
+    "SOLV": {
+      "firm_name": "Solventum",
+      "cik": "0001964738",
+      "industry": "Health Care"
+    },
+    "STE": {
+      "firm_name": "Steris",
+      "cik": "0001757898",
+      "industry": "Health Care"
+    },
+    "TAP": {
+      "firm_name": "Molson Coors Beverage Company",
+      "cik": "0000024545",
+      "industry": "Consumer Staples"
+    },
+    "TFC": {
+      "firm_name": "Truist Financial",
+      "cik": "0000092230",
+      "industry": "Financials"
+    },
+    "TPL": {
+      "firm_name": "Texas Pacific Land Corporation",
+      "cik": "0001811074",
+      "industry": "Energy"
+    },
+    "TPR": {
+      "firm_name": "Tapestry, Inc.",
+      "cik": "0001116132",
+      "industry": "Consumer Discretionary"
+    },
+    "TYL": {
+      "firm_name": "Tyler Technologies",
+      "cik": "0000860731",
+      "industry": "Information Technology"
+    },
+    "USB": {
+      "firm_name": "U.S. Bancorp",
+      "cik": "0000036104",
+      "industry": "Financials"
+    },
+    "VRSK": {
+      "firm_name": "Verisk Analytics",
+      "cik": "0001442145",
+      "industry": "Industrials"
+    },
+    "VRTX": {
+      "firm_name": "Vertex Pharmaceuticals",
+      "cik": "0000875320",
+      "industry": "Health Care"
+    },
+    "VST": {
+      "firm_name": "Vistra Corp .",
+      "cik": "0001692819",
+      "industry": "Utilities"
+    },
+    "VTR": {
+      "firm_name": "Ventas",
+      "cik": "0000740260",
+      "industry": "Real Estate"
+    },
+    "WM": {
+      "firm_name": "Waste Management",
+      "cik": "0000823768",
+      "industry": "Industrials"
+    },
+    "WMT": {
+      "firm_name": "Walmart",
+      "cik": "0000104169",
+      "industry": "Consumer Staples"
+    },
+    "WRB": {
+      "firm_name": "W. R. Berkley Corporation",
+      "cik": "0000011544",
+      "industry": "Financials"
+    },
+    "WY": {
+      "firm_name": "Weyerhaeuser",
+      "cik": "0000106535",
+      "industry": "Real Estate"
+    },
+    "WYNN": {
+      "firm_name": "Wynn Resorts",
+      "cik": "0001174922",
+      "industry": "Consumer Discretionary"
+    },
+    "XYL": {
+      "firm_name": "Xylem Inc.",
+      "cik": "0001524472",
+      "industry": "Industrials"
+    },
+    "XYZ": {
+      "firm_name": "Block, Inc.",
+      "cik": "0001512673",
+      "industry": "Financials"
+    },
+    "ZBH": {
+      "firm_name": "Zimmer Biomet",
+      "cik": "0001136869",
+      "industry": "Health Care"
+    }
+  },
+  "benchmark_ticker": "SPY",
+  "event_window_start": -3,
+  "event_window_end": 60,
+  "sec_identity": "Lehigh University yal923@lehigh.edu"
+}

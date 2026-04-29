@@ -1,0 +1,28 @@
+[
+  {
+    "accessionNumber":"0000000000-19-006947",
+    "filingDate":"2019-04-10T00:00:00.000",
+    "acceptanceDateTime":"2019-04-10T17:26:05.000Z",
+    "form":"UPLOAD",
+    "fileNumber":"",
+    "primaryDocument":"filename1.pdf",
+    "primaryDocDescription":"",
+    "isXBRL":0,
+    "isInlineXBRL":0,
+    "source_file":"company_submissions.json",
+    "normalized_form":"STAFF_LETTER",
+    "form_role":"event_anchor",
+    "ticker":"AON",
+    "cik":"0000315293",
+    "firm_name":"Aon plc",
+    "industry":"Financials",
+    "thread_id":"AON_0000000000-19-006947",
+    "qa_status":"thread_anchor",
+    "document_name":"filename1.pdf",
+    "document_url":"https:\/\/www.sec.gov\/Archives\/edgar\/data\/315293\/000000000019006947\/filename1.pdf",
+    "raw_document_path":"data\/raw\/sec\/AON\/AON_0000000000-19-006947\/filings\/0000000000-19-006947\/filename1.pdf",
+    "extracted_text_path":"data\/raw\/sec\/AON\/AON_0000000000-19-006947\/extracted_text\/0000000000-19-006947.txt",
+    "extraction_status":"ok",
+    "letter_word_count_file":91
+  }
+]

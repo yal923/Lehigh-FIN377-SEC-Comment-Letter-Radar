@@ -1,0 +1,36 @@
+{
+  "ticker": "MDLZ",
+  "thread_id": "MDLZ_0000000000-16-094772",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-16-094772",
+    "0001193125-16-733863",
+    "0000000000-16-106394",
+    "0001193125-17-002403",
+    "0000000000-17-003205",
+    "0000000000-17-015933",
+    "0001193125-17-173542",
+    "0000000000-17-018571"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

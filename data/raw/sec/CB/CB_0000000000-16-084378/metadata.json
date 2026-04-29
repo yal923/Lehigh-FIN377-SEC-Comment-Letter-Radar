@@ -1,0 +1,27 @@
+{
+  "ticker": "CB",
+  "thread_id": "CB_0000000000-16-084378",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-16-084378",
+    "0001193125-16-656728",
+    "0001193125-16-666706",
+    "0000000000-16-088122",
+    "0000000000-16-090642"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

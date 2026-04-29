@@ -1,0 +1,28 @@
+{
+  "step_id": "02_sec_raw_inventory",
+  "step_name": "SEC Raw Cache Inventory",
+  "status": "complete",
+  "source": "active_raw_cache",
+  "output_files": [
+    "data/raw/sec",
+    "outputs/workflow/02_sec_thread_inventory.csv",
+    "outputs/workflow/02_sec_raw_preview.csv",
+    "outputs/tables/sec_raw_form_summary.csv",
+    "outputs/workflow/02_sec_raw_summary.json"
+  ],
+  "metrics": {
+    "ticker_count": 100,
+    "thread_count": 283,
+    "filing_count": 1185,
+    "company_submission_file_count": 100,
+    "submission_archive_file_count": 124,
+    "extracted_text_file_count": 1185,
+    "ok_extraction_count": 1185,
+    "raw_cache_mb": 156.07,
+    "created_at_utc": "2026-04-29T18:33:30.436327+00:00"
+  },
+  "notes": [
+    "Used existing official SEC raw cache in data/raw/sec.",
+    "Generated lightweight inventory files for Streamlit display instead of loading full raw cache."
+  ]
+}

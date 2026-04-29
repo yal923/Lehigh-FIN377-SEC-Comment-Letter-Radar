@@ -1,0 +1,22 @@
+{
+  "step_id": "01_sp500_reference",
+  "step_name": "S&P 500 Reference Data",
+  "status": "complete",
+  "source": "active_cache",
+  "output_files": [
+    "data/raw/reference/sp500_constituents.csv",
+    "data/raw/reference/sp500_constituents.parquet",
+    "outputs/workflow/01_sp500_reference_preview.csv",
+    "outputs/workflow/01_sp500_reference_summary.json",
+    "outputs/tables/sp500_sector_summary.csv"
+  ],
+  "metrics": {
+    "company_count": 503,
+    "sector_count": 11,
+    "unique_ticker_count": 503,
+    "created_at_utc": "2026-04-29T18:33:30.193500+00:00"
+  },
+  "notes": [
+    "Loaded existing active S&P 500 reference file."
+  ]
+}

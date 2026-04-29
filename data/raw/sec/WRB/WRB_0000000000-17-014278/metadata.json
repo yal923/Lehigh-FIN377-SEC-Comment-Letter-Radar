@@ -1,0 +1,24 @@
+{
+  "ticker": "WRB",
+  "thread_id": "WRB_0000000000-17-014278",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-17-014278",
+    "0000899140-17-000417",
+    "0000899140-17-000459",
+    "0000000000-17-024225"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

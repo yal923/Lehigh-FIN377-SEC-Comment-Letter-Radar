@@ -1,0 +1,27 @@
+{
+  "ticker": "DASH",
+  "thread_id": "DASH_0000000000-22-000022",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-22-000022",
+    "0001193125-22-052401",
+    "0000000000-22-005549",
+    "0001193125-22-166604",
+    "0000000000-22-006417"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

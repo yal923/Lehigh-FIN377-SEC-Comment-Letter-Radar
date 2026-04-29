@@ -1,0 +1,21 @@
+{
+  "ticker": "LEN",
+  "thread_id": "LEN_0000000000-22-001608",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-22-001608",
+    "0001628280-22-003175",
+    "0000000000-22-002240"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

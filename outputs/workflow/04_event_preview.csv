@@ -1,0 +1,101 @@
+event_id,event_inclusion_status,event_date,ticker,firm_name,industry,thread_id,n_filings_in_thread,thread_round_count,thread_duration_days,staff_letter_word_count,main_staff_letter_url
+A_000000000016092800,included,2016-09-14,A,Agilent Technologies,Health Care,A_0000000000-16-092800,3,2,16,909,https://www.sec.gov/Archives/edgar/data/1090872/000000000016092800/filename1.pdf
+ABBV_000000000018013671,included,2018-05-02,ABBV,AbbVie,Health Care,ABBV_0000000000-18-013671,2,1,8,686,https://www.sec.gov/Archives/edgar/data/1551152/000000000018013671/filename1.pdf
+ABBV_000000000020009552,included,2020-10-09,ABBV,AbbVie,Health Care,ABBV_0000000000-20-009552,8,4,207,1144,https://www.sec.gov/Archives/edgar/data/1551152/000000000020009552/filename1.pdf
+ABBV_000000000022010309,included,2022-09-20,ABBV,AbbVie,Health Care,ABBV_0000000000-22-010309,3,2,30,492,https://www.sec.gov/Archives/edgar/data/1551152/000000000022010309/filename1.pdf
+ADM_000000000017044885,included,2017-12-22,ADM,Archer Daniels Midland,Consumer Staples,ADM_0000000000-17-044885,3,2,19,697,https://www.sec.gov/Archives/edgar/data/7084/000000000017044885/filename1.pdf
+ADM_000000000020007987,included,2020-08-25,ADM,Archer Daniels Midland,Consumer Staples,ADM_0000000000-20-007987,5,3,65,1076,https://www.sec.gov/Archives/edgar/data/7084/000000000020007987/filename1.pdf
+ADM_000000000021013296,included,2021-11-02,ADM,Archer Daniels Midland,Consumer Staples,ADM_0000000000-21-013296,3,2,10,404,https://www.sec.gov/Archives/edgar/data/7084/000000000021013296/filename1.pdf
+ADM_000000000024005934,included,2024-05-22,ADM,Archer Daniels Midland,Consumer Staples,ADM_0000000000-24-005934,10,4,210,1601,https://www.sec.gov/Archives/edgar/data/7084/000000000024005934/filename1.pdf
+ADSK_000000000017022741,included,2017-06-28,ADSK,Autodesk,Information Technology,ADSK_0000000000-17-022741,3,2,22,754,https://www.sec.gov/Archives/edgar/data/769397/000000000017022741/filename1.pdf
+ADSK_000000000018024031,included,2018-08-03,ADSK,Autodesk,Information Technology,ADSK_0000000000-18-024031,9,4,209,1481,https://www.sec.gov/Archives/edgar/data/769397/000000000018024031/filename1.pdf
+AFL_000000000016074172,included,2016-04-28,AFL,Aflac,Financials,AFL_0000000000-16-074172,5,3,62,1251,https://www.sec.gov/Archives/edgar/data/4977/000000000016074172/filename1.pdf
+AFL_000000000017014838,included,2017-04-28,AFL,Aflac,Financials,AFL_0000000000-17-014838,3,2,24,398,https://www.sec.gov/Archives/edgar/data/4977/000000000017014838/filename1.pdf
+AFL_000000000023008707,included,2023-08-10,AFL,Aflac,Financials,AFL_0000000000-23-008707,2,1,21,129,https://www.sec.gov/Archives/edgar/data/4977/000000000023008707/filename1.pdf
+AJG_000000000016075772,included,2016-05-10,AJG,Arthur J. Gallagher & Co.,Financials,AJG_0000000000-16-075772,4,2,48,744,https://www.sec.gov/Archives/edgar/data/354190/000000000016075772/filename1.pdf
+AJG_000000000016102009,included,2016-11-22,AJG,Arthur J. Gallagher & Co.,Financials,AJG_0000000000-16-102009,2,1,0,142,https://www.sec.gov/Archives/edgar/data/354190/000000000016102009/filename1.pdf
+AJG_000000000022012653,included,2022-11-22,AJG,Arthur J. Gallagher & Co.,Financials,AJG_0000000000-22-012653,2,1,0,129,https://www.sec.gov/Archives/edgar/data/354190/000000000022012653/filename1.pdf
+AJG_000000000024002978,included,2024-03-19,AJG,Arthur J. Gallagher & Co.,Financials,AJG_0000000000-24-002978,2,1,14,460,https://www.sec.gov/Archives/edgar/data/354190/000000000024002978/filename1.pdf
+AJG_000000000024010451,included,2024-09-16,AJG,Arthur J. Gallagher & Co.,Financials,AJG_0000000000-24-010451,1,1,0,91,https://www.sec.gov/Archives/edgar/data/354190/000000000024010451/filename1.pdf
+ALL_000000000017014470,included,2017-04-26,ALL,Allstate,Financials,ALL_0000000000-17-014470,5,3,62,964,https://www.sec.gov/Archives/edgar/data/899051/000000000017014470/filename1.pdf
+ALL_000000000018011843,included,2018-04-18,ALL,Allstate,Financials,ALL_0000000000-18-011843,5,3,83,1030,https://www.sec.gov/Archives/edgar/data/899051/000000000018011843/filename1.pdf
+ALL_000000000021003670,included,2021-03-26,ALL,Allstate,Financials,ALL_0000000000-21-003670,3,2,25,673,https://www.sec.gov/Archives/edgar/data/899051/000000000021003670/filename1.pdf
+AMT_000000000016074877,included,2016-05-04,AMT,American Tower,Real Estate,AMT_0000000000-16-074877,3,2,7,605,https://www.sec.gov/Archives/edgar/data/1053507/000000000016074877/filename1.pdf
+AMT_000000000018008426,included,2018-03-19,AMT,American Tower,Real Estate,AMT_0000000000-18-008426,3,2,14,490,https://www.sec.gov/Archives/edgar/data/1053507/000000000018008426/filename1.pdf
+AMT_000000000023002236,included,2023-03-07,AMT,American Tower,Real Estate,AMT_0000000000-23-002236,4,2,31,401,https://www.sec.gov/Archives/edgar/data/1053507/000000000023002236/filename1.pdf
+AON_000000000017045347,included,2017-12-29,AON,Aon plc,Financials,AON_0000000000-17-045347,5,3,98,1062,https://www.sec.gov/Archives/edgar/data/315293/000000000017045347/filename1.pdf
+AON_000000000018025493,included,2018-08-16,AON,Aon plc,Financials,AON_0000000000-18-025493,3,2,50,579,https://www.sec.gov/Archives/edgar/data/315293/000000000018025493/filename1.pdf
+AON_000000000019006947,included,2019-04-10,AON,Aon plc,Financials,AON_0000000000-19-006947,1,1,0,91,https://www.sec.gov/Archives/edgar/data/315293/000000000019006947/filename1.pdf
+AON_000000000020004858,included,2020-06-01,AON,Aon plc,Financials,AON_0000000000-20-004858,3,2,17,488,https://www.sec.gov/Archives/edgar/data/315293/000000000020004858/filename1.pdf
+AON_000000000022013878,included,2022-12-23,AON,Aon plc,Financials,AON_0000000000-22-013878,3,2,33,677,https://www.sec.gov/Archives/edgar/data/315293/000000000022013878/filename1.pdf
+AON_000000000024003147,included,2024-03-22,AON,Aon plc,Financials,AON_0000000000-24-003147,4,1,28,571,https://www.sec.gov/Archives/edgar/data/315293/000000000024003147/filename1.pdf
+APP_000000000020012628,included,2020-12-31,APP,AppLovin,Information Technology,APP_0000000000-20-012628,9,4,103,4470,https://www.sec.gov/Archives/edgar/data/1751008/000000000020012628/filename1.pdf
+APP_000000000021013958,included,2021-11-17,APP,AppLovin,Information Technology,APP_0000000000-21-013958,4,1,15,446,https://www.sec.gov/Archives/edgar/data/1751008/000000000021013958/filename1.pdf
+AVY_000000000018009394,included,2018-03-28,AVY,Avery Dennison,Materials,AVY_0000000000-18-009394,4,2,35,581,https://www.sec.gov/Archives/edgar/data/8818/000000000018009394/filename1.pdf
+AVY_000000000023003698,included,2023-04-13,AVY,Avery Dennison,Materials,AVY_0000000000-23-003698,3,2,39,638,https://www.sec.gov/Archives/edgar/data/8818/000000000023003698/filename1.pdf
+BBY_000000000016088191,included,2016-08-10,BBY,Best Buy,Consumer Discretionary,BBY_0000000000-16-088191,3,2,36,1415,https://www.sec.gov/Archives/edgar/data/764478/000000000016088191/filename1.pdf
+BKR_000000000017014455,included,2017-04-26,BKR,Baker Hughes,Energy,BKR_0000000000-17-014455,5,2,30,3817,https://www.sec.gov/Archives/edgar/data/1701605/000000000017014455/filename1.pdf
+BKR_000000000018030596,included,2018-09-27,BKR,Baker Hughes,Energy,BKR_0000000000-18-030596,3,2,27,423,https://www.sec.gov/Archives/edgar/data/1701605/000000000018030596/filename1.pdf
+BKR_000000000024008308,included,2024-07-23,BKR,Baker Hughes,Energy,BKR_0000000000-24-008308,5,3,37,1076,https://www.sec.gov/Archives/edgar/data/1701605/000000000024008308/filename1.pdf
+BRK-B_000000000016092092,included,2016-09-09,BRK-B,Berkshire Hathaway,Financials,BRK-B_0000000000-16-092092,4,2,42,677,https://www.sec.gov/Archives/edgar/data/1067983/000000000016092092/filename1.pdf
+BRK-B_000000000017008779,included,2017-03-16,BRK-B,Berkshire Hathaway,Financials,BRK-B_0000000000-17-008779,7,3,105,1895,https://www.sec.gov/Archives/edgar/data/1067983/000000000017008779/filename1.pdf
+BRK-B_000000000019008277,included,2019-05-09,BRK-B,Berkshire Hathaway,Financials,BRK-B_0000000000-19-008277,4,2,46,618,https://www.sec.gov/Archives/edgar/data/1067983/000000000019008277/filename1.pdf
+BRK-B_000000000021008029,included,2021-06-29,BRK-B,Berkshire Hathaway,Financials,BRK-B_0000000000-21-008029,3,2,10,442,https://www.sec.gov/Archives/edgar/data/1067983/000000000021008029/filename1.pdf
+BRK-B_000000000022009598,included,2022-09-02,BRK-B,Berkshire Hathaway,Financials,BRK-B_0000000000-22-009598,3,2,31,490,https://www.sec.gov/Archives/edgar/data/1067983/000000000022009598/filename1.pdf
+BRK-B_000000000023008134,included,2023-07-28,BRK-B,Berkshire Hathaway,Financials,BRK-B_0000000000-23-008134,3,2,19,395,https://www.sec.gov/Archives/edgar/data/1067983/000000000023008134/filename1.pdf
+BRK-B_000000000024009131,included,2024-08-09,BRK-B,Berkshire Hathaway,Financials,BRK-B_0000000000-24-009131,3,2,27,570,https://www.sec.gov/Archives/edgar/data/1067983/000000000024009131/filename1.pdf
+BSX_000000000016070496,included,2016-03-31,BSX,Boston Scientific,Health Care,BSX_0000000000-16-070496,3,2,13,731,https://www.sec.gov/Archives/edgar/data/885725/000000000016070496/filename1.pdf
+BSX_000000000016094201,included,2016-09-23,BSX,Boston Scientific,Health Care,BSX_0000000000-16-094201,5,3,81,990,https://www.sec.gov/Archives/edgar/data/885725/000000000016094201/filename1.pdf
+BXP_000000000017016099,included,2017-05-08,BXP,"BXP, Inc.",Real Estate,BXP_0000000000-17-016099,3,2,25,477,https://www.sec.gov/Archives/edgar/data/1037540/000000000017016099/filename1.pdf
+BXP_000000000018024571,included,2018-08-08,BXP,"BXP, Inc.",Real Estate,BXP_0000000000-18-024571,3,2,8,588,https://www.sec.gov/Archives/edgar/data/1037540/000000000018024571/filename1.pdf
+BXP_000000000022009471,included,2022-08-31,BXP,"BXP, Inc.",Real Estate,BXP_0000000000-22-009471,3,2,33,523,https://www.sec.gov/Archives/edgar/data/1037540/000000000022009471/filename1.pdf
+BXP_000000000024009655,included,2024-08-23,BXP,"BXP, Inc.",Real Estate,BXP_0000000000-24-009655,3,2,25,392,https://www.sec.gov/Archives/edgar/data/1037540/000000000024009655/filename1.pdf
+C_000000000016082386,included,2016-06-28,C,Citigroup,Financials,C_0000000000-16-082386,5,3,52,1776,https://www.sec.gov/Archives/edgar/data/831001/000000000016082386/filename1.pdf
+C_000000000017009750,included,2017-03-24,C,Citigroup,Financials,C_0000000000-17-009750,3,1,12,402,https://www.sec.gov/Archives/edgar/data/831001/000000000017009750/filename1.pdf
+C_000000000018014255,included,2018-05-08,C,Citigroup,Financials,C_0000000000-18-014255,2,1,2,126,https://www.sec.gov/Archives/edgar/data/831001/000000000018014255/filename1.pdf
+C_000000000019012201,included,2019-08-08,C,Citigroup,Financials,C_0000000000-19-012201,3,2,28,706,https://www.sec.gov/Archives/edgar/data/831001/000000000019012201/filename1.pdf
+C_000000000020008961,included,2020-09-23,C,Citigroup,Financials,C_0000000000-20-008961,7,4,226,1454,https://www.sec.gov/Archives/edgar/data/831001/000000000020008961/filename1.pdf
+C_000000000022004745,included,2022-05-02,C,Citigroup,Financials,C_0000000000-22-004745,5,3,37,1016,https://www.sec.gov/Archives/edgar/data/831001/000000000022004745/filename1.pdf
+C_000000000024006685,included,2024-06-11,C,Citigroup,Financials,C_0000000000-24-006685,3,2,43,782,https://www.sec.gov/Archives/edgar/data/831001/000000000024006685/filename1.pdf
+CARR_000000000019013211,included,2019-09-05,CARR,Carrier Global,Industrials,CARR_0000000000-19-013211,12,7,1597,1816,https://www.sec.gov/Archives/edgar/data/1783180/000000000019013211/filename1.pdf
+CARR_000000000024006263,included,2024-05-31,CARR,Carrier Global,Industrials,CARR_0000000000-24-006263,3,2,45,507,https://www.sec.gov/Archives/edgar/data/1783180/000000000024006263/filename1.pdf
+CARR_000000000025008021,included,2025-07-30,CARR,Carrier Global,Industrials,CARR_0000000000-25-008021,2,1,1,119,https://www.sec.gov/Archives/edgar/data/1783180/000000000025008021/filename1.pdf
+CASY_000000000023001432,included,2023-02-10,CASY,Casey's,Consumer Staples,CASY_0000000000-23-001432,6,3,61,1063,https://www.sec.gov/Archives/edgar/data/726958/000000000023001432/filename1.pdf
+CASY_000000000024002104,included,2024-02-26,CASY,Casey's,Consumer Staples,CASY_0000000000-24-002104,3,2,29,659,https://www.sec.gov/Archives/edgar/data/726958/000000000024002104/filename1.pdf
+CAT_000000000017022437,included,2017-06-27,CAT,Caterpillar Inc.,Industrials,CAT_0000000000-17-022437,5,3,73,1291,https://www.sec.gov/Archives/edgar/data/18230/000000000017022437/filename1.pdf
+CAT_000000000022010513,included,2022-09-23,CAT,Caterpillar Inc.,Industrials,CAT_0000000000-22-010513,3,2,111,881,https://www.sec.gov/Archives/edgar/data/18230/000000000022010513/filename1.pdf
+CAT_000000000024002665,included,2024-03-11,CAT,Caterpillar Inc.,Industrials,CAT_0000000000-24-002665,3,2,21,620,https://www.sec.gov/Archives/edgar/data/18230/000000000024002665/filename1.pdf
+CB_000000000016084378,included,2016-07-14,CB,Chubb Limited,Financials,CB_0000000000-16-084378,5,3,47,1051,https://www.sec.gov/Archives/edgar/data/896159/000000000016084378/filename1.pdf
+CB_000000000017027038,included,2017-08-01,CB,Chubb Limited,Financials,CB_0000000000-17-027038,5,3,85,1654,https://www.sec.gov/Archives/edgar/data/896159/000000000017027038/filename1.pdf
+CB_000000000019007690,included,2019-04-29,CB,Chubb Limited,Financials,CB_0000000000-19-007690,4,2,50,658,https://www.sec.gov/Archives/edgar/data/896159/000000000019007690/filename1.pdf
+CB_000000000022009599,included,2022-09-02,CB,Chubb Limited,Financials,CB_0000000000-22-009599,3,2,45,496,https://www.sec.gov/Archives/edgar/data/896159/000000000022009599/filename1.pdf
+CCI_000000000017015547,included,2017-05-03,CCI,Crown Castle,Real Estate,CCI_0000000000-17-015547,3,2,23,376,https://www.sec.gov/Archives/edgar/data/1051470/000000000017015547/filename1.pdf
+CCI_000000000024002292,included,2024-02-29,CCI,Crown Castle,Real Estate,CCI_0000000000-24-002292,12,9,102,4412,https://www.sec.gov/Archives/edgar/data/1051470/000000000024002292/filename1.pdf
+CCI_000000000025005508,included,2025-05-22,CCI,Crown Castle,Real Estate,CCI_0000000000-25-005508,3,2,18,515,https://www.sec.gov/Archives/edgar/data/1051470/000000000025005508/filename1.pdf
+CDNS_000000000023011586,included,2023-10-23,CDNS,Cadence Design Systems,Information Technology,CDNS_0000000000-23-011586,3,2,28,530,https://www.sec.gov/Archives/edgar/data/813672/000000000023011586/filename1.pdf
+CEG_000000000021010325,included,2021-08-23,CEG,Constellation Energy,Utilities,CEG_0000000000-21-010325,10,5,128,3808,https://www.sec.gov/Archives/edgar/data/1868275/000000000021010325/filename1.pdf
+CHRW_000000000020011939,included,2020-12-14,CHRW,C.H. Robinson,Industrials,CHRW_0000000000-20-011939,3,2,23,569,https://www.sec.gov/Archives/edgar/data/1043277/000000000020011939/filename1.pdf
+CIEN_000000000016069477,included,2016-03-23,CIEN,Ciena,Information Technology,CIEN_0000000000-16-069477,4,2,22,701,https://www.sec.gov/Archives/edgar/data/936395/000000000016069477/filename1.pdf
+CIEN_000000000017024065,included,2017-07-10,CIEN,Ciena,Information Technology,CIEN_0000000000-17-024065,2,1,4,1267,https://www.sec.gov/Archives/edgar/data/936395/000000000017024065/filename1.pdf
+CIEN_000000000018004375,included,2018-02-08,CIEN,Ciena,Information Technology,CIEN_0000000000-18-004375,3,2,19,437,https://www.sec.gov/Archives/edgar/data/936395/000000000018004375/filename1.pdf
+CIEN_000000000020003316,included,2020-04-16,CIEN,Ciena,Information Technology,CIEN_0000000000-20-003316,3,2,11,526,https://www.sec.gov/Archives/edgar/data/936395/000000000020003316/filename1.pdf
+COF_000000000020012214,included,2020-12-18,COF,Capital One,Financials,COF_0000000000-20-012214,4,2,46,639,https://www.sec.gov/Archives/edgar/data/927628/000000000020012214/filename1.pdf
+COF_000000000022010286,included,2022-09-20,COF,Capital One,Financials,COF_0000000000-22-010286,3,2,17,497,https://www.sec.gov/Archives/edgar/data/927628/000000000022010286/filename1.pdf
+COF_000000000023014108,included,2023-12-27,COF,Capital One,Financials,COF_0000000000-23-014108,4,2,36,829,https://www.sec.gov/Archives/edgar/data/927628/000000000023014108/filename1.pdf
+COF_000000000024005698,included,2024-05-16,COF,Capital One,Financials,COF_0000000000-24-005698,13,5,232,5048,https://www.sec.gov/Archives/edgar/data/927628/000000000024005698/filename1.pdf
+CTSH_000000000017034709,included,2017-09-29,CTSH,Cognizant,Information Technology,CTSH_0000000000-17-034709,3,2,13,442,https://www.sec.gov/Archives/edgar/data/1058290/000000000017034709/filename1.pdf
+DASH_000000000020002224,included,2020-03-12,DASH,DoorDash,Consumer Discretionary,DASH_0000000000-20-002224,1,1,0,2911,https://www.sec.gov/Archives/edgar/data/1792789/000000000020002224/filename1.pdf
+DASH_000000000020007251,included,2020-08-10,DASH,DoorDash,Consumer Discretionary,DASH_0000000000-20-007251,8,4,119,3976,https://www.sec.gov/Archives/edgar/data/1792789/000000000020007251/filename1.pdf
+DASH_000000000022000022,included,2022-01-03,DASH,DoorDash,Consumer Discretionary,DASH_0000000000-22-000022,5,3,161,608,https://www.sec.gov/Archives/edgar/data/1792789/000000000022000022/filename1.pdf
+DRI_000000000018003836,included,2018-02-02,DRI,Darden Restaurants,Consumer Discretionary,DRI_0000000000-18-003836,3,2,20,575,https://www.sec.gov/Archives/edgar/data/940944/000000000018003836/filename1.pdf
+EA_000000000019011278,included,2019-07-18,EA,Electronic Arts,Communication Services,EA_0000000000-19-011278,7,4,158,1883,https://www.sec.gov/Archives/edgar/data/712515/000000000019011278/filename1.pdf
+EA_999999999721000527,included,2021-03-29,EA,Electronic Arts,Communication Services,EA_9999999997-21-000527,2,2,0,318,https://www.sec.gov/Archives/edgar/data/712515/999999999721000527/filename1.pdf
+EBAY_000000000017028776,included,2017-08-15,EBAY,eBay Inc.,Consumer Discretionary,EBAY_0000000000-17-028776,7,4,65,1499,https://www.sec.gov/Archives/edgar/data/1065088/000000000017028776/filename1.pdf
+EBAY_000000000018030096,included,2018-09-25,EBAY,eBay Inc.,Consumer Discretionary,EBAY_0000000000-18-030096,6,3,87,1680,https://www.sec.gov/Archives/edgar/data/1065088/000000000018030096/filename1.pdf
+EBAY_000000000021005831,included,2021-05-06,EBAY,eBay Inc.,Consumer Discretionary,EBAY_0000000000-21-005831,3,2,26,820,https://www.sec.gov/Archives/edgar/data/1065088/000000000021005831/filename1.pdf
+EBAY_000000000022010339,included,2022-09-20,EBAY,eBay Inc.,Consumer Discretionary,EBAY_0000000000-22-010339,3,2,23,526,https://www.sec.gov/Archives/edgar/data/1065088/000000000022010339/filename1.pdf
+EBAY_000000000024010609,included,2024-09-19,EBAY,eBay Inc.,Consumer Discretionary,EBAY_0000000000-24-010609,3,2,11,485,https://www.sec.gov/Archives/edgar/data/1065088/000000000024010609/filename1.pdf
+EBAY_000000000025004920,included,2025-05-08,EBAY,eBay Inc.,Consumer Discretionary,EBAY_0000000000-25-004920,3,2,6,327,https://www.sec.gov/Archives/edgar/data/1065088/000000000025004920/filename1.pdf
+ESS_000000000017010663,included,2017-03-30,ESS,Essex Property Trust,Real Estate,ESS_0000000000-17-010663,3,2,11,533,https://www.sec.gov/Archives/edgar/data/920522/000000000017010663/filename1.pdf
+ETN_000000000016063947,included,2016-02-05,ETN,Eaton Corporation,Industrials,ETN_0000000000-16-063947,1,1,0,173,https://www.sec.gov/Archives/edgar/data/1551182/000000000016063947/filename1.pdf
+ETN_000000000017044426,included,2017-12-20,ETN,Eaton Corporation,Industrials,ETN_0000000000-17-044426,5,3,41,755,https://www.sec.gov/Archives/edgar/data/1551182/000000000017044426/filename1.pdf

@@ -1,0 +1,30 @@
+{
+  "ticker": "MNST",
+  "thread_id": "MNST_0000000000-20-008892",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-20-008892",
+    "0001104659-20-111566",
+    "0000000000-20-011696",
+    "0001104659-20-137352",
+    "0001104659-21-003947",
+    "0000000000-21-000734"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

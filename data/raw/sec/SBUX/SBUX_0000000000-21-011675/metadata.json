@@ -1,0 +1,27 @@
+{
+  "ticker": "SBUX",
+  "thread_id": "SBUX_0000000000-21-011675",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-21-011675",
+    "0001193125-21-299933",
+    "0000000000-21-013527",
+    "0000829224-21-000090",
+    "0000000000-22-001288"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

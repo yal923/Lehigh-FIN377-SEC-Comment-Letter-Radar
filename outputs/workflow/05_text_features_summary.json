@@ -1,0 +1,29 @@
+{
+  "step_id": "05_text_features",
+  "step_name": "Text Features, Topic, and Severity",
+  "status": "complete",
+  "source": "data/processed/event_level_base and configs/text_feature_config.json",
+  "output_files": [
+    "data/processed/event_level.csv",
+    "data/processed/event_level.parquet",
+    "outputs/workflow/05_text_features_preview.csv",
+    "outputs/tables/topic_summary.csv",
+    "outputs/tables/topic_detail_summary.csv",
+    "outputs/tables/severity_bucket_summary.csv",
+    "outputs/workflow/05_text_features_summary.json"
+  ],
+  "metrics": {
+    "event_count": 283,
+    "topic_count": 6,
+    "topic_detail_count": 11,
+    "severity_bucket_count": 3,
+    "mean_severity_score": 0.3781,
+    "classifier_version": "v3_grouped_rule_based_regex",
+    "created_at_utc": "2026-04-29T18:33:32.616457+00:00"
+  },
+  "notes": [
+    "Applied the validated V3 grouped rule-based regex topic classifier.",
+    "Kept topic_detail as the audit label and topic as the grouped analysis label.",
+    "Severity combines z-scored staff-letter length, intensity-term count, thread-round count, and amendment indicator."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ticker": "RCL",
+  "thread_id": "RCL_0000000000-21-011331",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-21-011331",
+    "0001104659-21-122157",
+    "0001341004-21-000292",
+    "0000000000-21-013137",
+    "0001104659-21-135803",
+    "0001104659-21-144500",
+    "0000000000-22-001222"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

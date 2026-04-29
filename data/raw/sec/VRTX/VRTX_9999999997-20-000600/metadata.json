@@ -1,0 +1,18 @@
+{
+  "ticker": "VRTX",
+  "thread_id": "VRTX_9999999997-20-000600",
+  "forms_in_thread": [
+    "SEC STAFF LETTER",
+    "SEC STAFF LETTER"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "9999999997-20-000600",
+    "9999999997-20-001009"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

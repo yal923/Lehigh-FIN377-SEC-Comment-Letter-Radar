@@ -1,0 +1,38 @@
+{
+  "directory": {
+    "item": [
+      {
+        "last-modified": "2016-04-08 14:50:00",
+        "name": "0000936395-16-000089-index-headers.html",
+        "type": "text.gif",
+        "size": ""
+      },
+      {
+        "last-modified": "2016-04-08 14:50:00",
+        "name": "0000936395-16-000089-index.html",
+        "type": "text.gif",
+        "size": ""
+      },
+      {
+        "last-modified": "2016-04-08 14:50:00",
+        "name": "0000936395-16-000089.txt",
+        "type": "text.gif",
+        "size": ""
+      },
+      {
+        "last-modified": "2016-04-08 14:50:00",
+        "name": "filename1.htm",
+        "type": "text.gif",
+        "size": "21026"
+      },
+      {
+        "last-modified": "2016-04-08 14:50:00",
+        "name": "jemlhead.jpg",
+        "type": "image2.gif",
+        "size": "19373"
+      }
+    ],
+    "name": "/Archives/edgar/data/936395/000093639516000089",
+    "parent-dir": "/Archives/edgar/data/936395"
+  }
+}

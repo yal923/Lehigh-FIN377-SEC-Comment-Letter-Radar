@@ -1,0 +1,33 @@
+{
+  "ticker": "IFF",
+  "thread_id": "IFF_0000000000-20-005058",
+  "forms_in_thread": [
+    "UPLOAD",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-20-005058",
+    "0000000000-20-005060",
+    "0001193125-20-176593",
+    "0001193125-20-176609",
+    "0000000000-20-006679",
+    "0001193125-20-198114",
+    "0000000000-20-006874"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

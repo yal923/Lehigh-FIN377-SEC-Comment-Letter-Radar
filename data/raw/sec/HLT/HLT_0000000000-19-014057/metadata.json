@@ -1,0 +1,18 @@
+{
+  "ticker": "HLT",
+  "thread_id": "HLT_0000000000-19-014057",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE"
+  ],
+  "accessions": [
+    "0000000000-19-014057",
+    "0001628280-19-012041"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

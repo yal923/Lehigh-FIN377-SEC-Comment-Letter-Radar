@@ -1,0 +1,36 @@
+{
+  "ticker": "TFC",
+  "thread_id": "TFC_0000000000-19-006560",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE"
+  ],
+  "accessions": [
+    "0000000000-19-006560",
+    "0001193125-19-139845",
+    "0001193125-19-173822",
+    "0000000000-19-009973",
+    "0001193125-19-175890",
+    "0001193125-19-175891",
+    "0000000000-19-013059",
+    "0001193125-19-238429"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

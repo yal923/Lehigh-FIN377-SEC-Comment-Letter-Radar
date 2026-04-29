@@ -1,0 +1,30 @@
+{
+  "ticker": "NRG",
+  "thread_id": "NRG_0000000000-16-075770",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE"
+  ],
+  "accessions": [
+    "0000000000-16-075770",
+    "0001104659-16-122989",
+    "0000000000-16-081594",
+    "0001104659-16-131570",
+    "0000000000-16-087459",
+    "0001104659-17-017446"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

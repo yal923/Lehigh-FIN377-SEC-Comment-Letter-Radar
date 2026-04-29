@@ -1,0 +1,32 @@
+{
+  "directory": {
+    "item": [
+      {
+        "last-modified": "2016-02-25 13:24:12",
+        "name": "0000000000-16-066278-index-headers.html",
+        "type": "text.gif",
+        "size": ""
+      },
+      {
+        "last-modified": "2016-02-25 13:24:12",
+        "name": "0000000000-16-066278-index.html",
+        "type": "text.gif",
+        "size": ""
+      },
+      {
+        "last-modified": "2016-02-25 13:24:12",
+        "name": "0000000000-16-066278.txt",
+        "type": "text.gif",
+        "size": ""
+      },
+      {
+        "last-modified": "2016-02-25 13:24:12",
+        "name": "filename1.pdf",
+        "type": "",
+        "size": "117744"
+      }
+    ],
+    "name": "/Archives/edgar/data/1513761/000000000016066278",
+    "parent-dir": "/Archives/edgar/data/1513761"
+  }
+}

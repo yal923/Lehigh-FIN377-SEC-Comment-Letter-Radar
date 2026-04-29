@@ -1,0 +1,36 @@
+{
+  "ticker": "META",
+  "thread_id": "META_0000000000-22-010750",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "CORRESP"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE"
+  ],
+  "accessions": [
+    "0000000000-22-010750",
+    "0000950103-22-017167",
+    "0000950103-22-018399",
+    "0000000000-22-012584",
+    "0000000000-22-012585",
+    "0000950103-22-019968",
+    "0000950103-22-020073",
+    "0000950103-22-021265"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

@@ -1,0 +1,21 @@
+{
+  "ticker": "BSX",
+  "thread_id": "BSX_0000000000-16-070496",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-16-070496",
+    "0000885725-16-000030",
+    "0000000000-16-072063"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

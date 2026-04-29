@@ -1,0 +1,28 @@
+[
+  {
+    "accessionNumber":"0000000000-24-000582",
+    "filingDate":"2024-01-17T00:00:00.000",
+    "acceptanceDateTime":"2024-01-17T18:36:07.000Z",
+    "form":"UPLOAD",
+    "fileNumber":"000-20322",
+    "primaryDocument":"filename1.pdf",
+    "primaryDocDescription":"",
+    "isXBRL":0,
+    "isInlineXBRL":0,
+    "source_file":"company_submissions.json",
+    "normalized_form":"STAFF_LETTER",
+    "form_role":"event_anchor",
+    "ticker":"SBUX",
+    "cik":"0000829224",
+    "firm_name":"Starbucks",
+    "industry":"Consumer Discretionary",
+    "thread_id":"SBUX_0000000000-24-000582",
+    "qa_status":"thread_anchor",
+    "document_name":"filename1.pdf",
+    "document_url":"https:\/\/www.sec.gov\/Archives\/edgar\/data\/829224\/000000000024000582\/filename1.pdf",
+    "raw_document_path":"data\/raw\/sec\/SBUX\/SBUX_0000000000-24-000582\/filings\/0000000000-24-000582\/filename1.pdf",
+    "extracted_text_path":"data\/raw\/sec\/SBUX\/SBUX_0000000000-24-000582\/extracted_text\/0000000000-24-000582.txt",
+    "extraction_status":"ok",
+    "letter_word_count_file":509
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "step_id": "03_thread_dataset",
+  "step_name": "Filing to Thread Dataset",
+  "status": "complete",
+  "source": "data/raw/sec extraction manifests",
+  "output_files": [
+    "data/processed/thread_filing_manifest.csv",
+    "data/processed/thread_filing_manifest.parquet",
+    "data/processed/thread_level.csv",
+    "data/processed/thread_level.parquet",
+    "outputs/workflow/03_thread_filing_preview.csv",
+    "outputs/workflow/03_thread_preview.csv",
+    "outputs/tables/thread_role_summary.csv",
+    "outputs/workflow/03_thread_dataset_summary.json"
+  ],
+  "metrics": {
+    "ticker_count": 93,
+    "thread_count": 283,
+    "filing_count": 1185,
+    "staff_letter_count": 676,
+    "filer_response_count": 504,
+    "staff_action_count": 5,
+    "complete_staff_text_thread_count": 283,
+    "mean_thread_duration_days": 75.53,
+    "median_thread_duration_days": 33.0,
+    "created_at_utc": "2026-04-29T18:33:31.244671+00:00"
+  },
+  "notes": [
+    "Built official filing-level and thread-level datasets from data/raw/sec extraction manifests.",
+    "The current baseline uses thread IDs already materialized by the V3 raw cache; this step validates and reshapes them for downstream event construction.",
+    "Full processed tables are stored as paired CSV and Parquet files; Streamlit uses lightweight preview tables for display."
+  ]
+}

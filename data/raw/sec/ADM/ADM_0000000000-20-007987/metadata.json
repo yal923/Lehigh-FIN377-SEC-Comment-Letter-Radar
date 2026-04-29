@@ -1,0 +1,27 @@
+{
+  "ticker": "ADM",
+  "thread_id": "ADM_0000000000-20-007987",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-20-007987",
+    "0000007084-20-000029",
+    "0000000000-20-008734",
+    "0000007084-20-000031",
+    "0000000000-20-010270"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

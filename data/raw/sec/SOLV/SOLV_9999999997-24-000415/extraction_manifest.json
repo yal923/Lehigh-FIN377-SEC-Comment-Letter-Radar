@@ -1,0 +1,28 @@
+[
+  {
+    "accessionNumber":"9999999997-24-000415",
+    "filingDate":"2024-02-27T00:00:00.000",
+    "acceptanceDateTime":"2024-02-28T14:34:17.000Z",
+    "form":"SEC STAFF LETTER",
+    "fileNumber":"001-41968",
+    "primaryDocument":"filename1.pdf",
+    "primaryDocDescription":"",
+    "isXBRL":0,
+    "isInlineXBRL":0,
+    "source_file":"company_submissions.json",
+    "normalized_form":"STAFF_LETTER",
+    "form_role":"event_anchor",
+    "ticker":"SOLV",
+    "cik":"0001964738",
+    "firm_name":"Solventum",
+    "industry":"Health Care",
+    "thread_id":"SOLV_9999999997-24-000415",
+    "qa_status":"thread_anchor",
+    "document_name":"filename1.pdf",
+    "document_url":"https:\/\/www.sec.gov\/Archives\/edgar\/data\/1964738\/999999999724000415\/filename1.pdf",
+    "raw_document_path":"data\/raw\/sec\/SOLV\/SOLV_9999999997-24-000415\/filings\/9999999997-24-000415\/filename1.pdf",
+    "extracted_text_path":"data\/raw\/sec\/SOLV\/SOLV_9999999997-24-000415\/extracted_text\/9999999997-24-000415.txt",
+    "extraction_status":"ok",
+    "letter_word_count_file":236
+  }
+]

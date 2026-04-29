@@ -1,0 +1,30 @@
+{
+  "ticker": "EBAY",
+  "thread_id": "EBAY_0000000000-18-030096",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-18-030096",
+    "0001065088-18-000036",
+    "0001065088-18-000040",
+    "0000000000-18-036323",
+    "0001065088-18-000047",
+    "0000000000-18-038913"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

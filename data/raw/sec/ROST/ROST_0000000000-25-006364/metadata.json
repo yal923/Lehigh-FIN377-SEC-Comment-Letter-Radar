@@ -1,0 +1,27 @@
+{
+  "ticker": "ROST",
+  "thread_id": "ROST_0000000000-25-006364",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-25-006364",
+    "0000745732-25-000039",
+    "0000000000-25-007318",
+    "0000745732-25-000042",
+    "0000000000-25-007974"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

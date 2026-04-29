@@ -1,0 +1,38 @@
+{
+  "directory": {
+    "item": [
+      {
+        "last-modified": "2020-01-21 11:17:25",
+        "name": "0000000000-20-000490-index-headers.html",
+        "type": "text.gif",
+        "size": ""
+      },
+      {
+        "last-modified": "2020-01-21 11:17:25",
+        "name": "0000000000-20-000490-index.html",
+        "type": "text.gif",
+        "size": ""
+      },
+      {
+        "last-modified": "2020-01-21 11:17:25",
+        "name": "0000000000-20-000490.txt",
+        "type": "text.gif",
+        "size": ""
+      },
+      {
+        "last-modified": "2020-01-21 11:17:25",
+        "name": "filename1.pdf",
+        "type": "",
+        "size": "32008"
+      },
+      {
+        "last-modified": "2020-01-21 11:17:25",
+        "name": "filename2.txt",
+        "type": "text.gif",
+        "size": "1229"
+      }
+    ],
+    "name": "/Archives/edgar/data/1754301/000000000020000490",
+    "parent-dir": "/Archives/edgar/data/1754301"
+  }
+}

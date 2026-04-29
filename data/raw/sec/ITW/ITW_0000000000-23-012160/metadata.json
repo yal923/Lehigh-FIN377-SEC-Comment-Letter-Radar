@@ -1,0 +1,24 @@
+{
+  "ticker": "ITW",
+  "thread_id": "ITW_0000000000-23-012160",
+  "forms_in_thread": [
+    "UPLOAD",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-23-012160",
+    "0000000000-23-013210",
+    "0000049826-24-000003",
+    "0000000000-24-000612"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

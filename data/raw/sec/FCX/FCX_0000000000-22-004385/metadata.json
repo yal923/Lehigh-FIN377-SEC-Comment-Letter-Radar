@@ -1,0 +1,24 @@
+{
+  "ticker": "FCX",
+  "thread_id": "FCX_0000000000-22-004385",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-22-004385",
+    "0000831259-22-000026",
+    "0000831259-22-000030",
+    "0000000000-22-005883"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

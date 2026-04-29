@@ -1,0 +1,101 @@
+event_id,event_date,ticker,industry,topic,topic_detail,severity_score,severity_bucket,letter_word_count,intensity_term_count,thread_round_count,amendment_indicator
+A_000000000016092800,2016-09-14,A,Health Care,routine_other,routine_disclosure,-0.5955592894760546,medium,909,4,2,0
+ABBV_000000000018013671,2018-05-02,ABBV,Health Care,accounting_financial_reporting,controls_accounting,-0.6420826602302503,medium,686,5,1,1
+ABBV_000000000020009552,2020-10-09,ABBV,Health Care,accounting_financial_reporting,controls_accounting,2.402751473954108,high,1144,4,4,1
+ABBV_000000000022010309,2022-09-20,ABBV,Health Care,accounting_financial_reporting,controls_accounting,-1.3263762383027338,low,492,1,2,0
+ADM_000000000017044885,2017-12-22,ADM,Consumer Staples,routine_other,routine_disclosure,-0.8478554505941633,medium,697,4,2,0
+ADM_000000000020007987,2020-08-25,ADM,Consumer Staples,accounting_financial_reporting,impairment_fair_value,0.540689919111737,high,1076,5,3,0
+ADM_000000000021013296,2021-11-02,ADM,Consumer Staples,routine_other,routine_disclosure,-1.4311029466913827,low,404,1,2,0
+ADM_000000000024005934,2024-05-22,ADM,Consumer Staples,accounting_financial_reporting,controls_accounting,3.8848369526852133,high,1601,16,4,1
+ADSK_000000000017022741,2017-06-28,ADSK,Information Technology,routine_other,routine_disclosure,-0.7800211053878794,medium,754,4,2,0
+ADSK_000000000018024031,2018-08-03,ADSK,Information Technology,revenue_non_gaap,revenue,2.272917484457938,high,1481,10,4,0
+AFL_000000000016074172,2016-04-28,AFL,Financials,accounting_financial_reporting,controls_accounting,2.061693473273727,high,1251,9,3,1
+AFL_000000000017014838,2017-04-28,AFL,Financials,accounting_financial_reporting,controls_accounting,-1.4382434040815177,low,398,1,2,0
+AFL_000000000023008707,2023-08-10,AFL,Financials,routine_other,other,-1.6958803883016071,low,129,0,1,1
+AJG_000000000016075772,2016-05-10,AJG,Financials,accounting_financial_reporting,controls_accounting,-0.7919218677047712,medium,744,4,2,0
+AJG_000000000016102009,2016-11-22,AJG,Financials,routine_other,other,-1.6804093972896474,low,142,0,1,1
+AJG_000000000022012653,2022-11-22,AJG,Financials,routine_other,other,-1.6958803883016071,low,129,0,1,1
+AJG_000000000024002978,2024-03-19,AJG,Financials,accounting_financial_reporting,controls_accounting,-1.9110398885920077,low,460,5,1,0
+AJG_000000000024010451,2024-09-16,AJG,Financials,routine_other,routine_disclosure,-2.7411032851057966,low,91,0,1,0
+ALL_000000000017014470,2017-04-26,ALL,Financials,accounting_financial_reporting,controls_accounting,0.48558643456664285,medium,964,6,3,0
+ALL_000000000018011843,2018-04-18,ALL,Financials,accounting_financial_reporting,controls_accounting,0.3295763056458435,medium,1030,3,3,0
+ALL_000000000021003670,2021-03-26,ALL,Financials,accounting_financial_reporting,controls_accounting,-0.9546023335587992,medium,673,3,2,0
+AMT_000000000016074877,2016-05-04,AMT,Real Estate,mda_liquidity,mda_liquidity,-1.1137125707177598,medium,605,2,2,0
+AMT_000000000018008426,2018-03-19,AMT,Real Estate,mda_liquidity,mda_liquidity,-1.3287563907661122,low,490,1,2,0
+AMT_000000000023002236,2023-03-07,AMT,Real Estate,accounting_financial_reporting,impairment_fair_value,-1.4346731753864503,low,401,1,2,0
+AON_000000000017045347,2017-12-29,AON,Financials,routine_other,routine_disclosure,1.680398958676279,high,1062,7,3,1
+AON_000000000018025493,2018-08-16,AON,Financials,revenue_non_gaap,revenue,-1.0664694993375834,medium,579,3,2,0
+AON_000000000019006947,2019-04-10,AON,Financials,routine_other,routine_disclosure,-2.7411032851057966,low,91,0,1,0
+AON_000000000020004858,2020-06-01,AON,Financials,routine_other,routine_disclosure,-0.3311365432294906,medium,488,1,2,1
+AON_000000000022013878,2022-12-23,AON,Financials,accounting_financial_reporting,controls_accounting,-0.08980644118699349,medium,677,14,2,0
+AON_000000000024003147,2024-03-22,AON,Financials,accounting_financial_reporting,controls_accounting,-0.3880161598540306,medium,571,10,1,1
+APP_000000000020012628,2020-12-31,APP,Information Technology,accounting_financial_reporting,controls_accounting,10.661122957777607,high,4470,59,4,1
+APP_000000000021013958,2021-11-17,APP,Information Technology,accounting_financial_reporting,controls_accounting,-1.1622561160479425,low,446,2,1,1
+AVY_000000000018009394,2018-03-28,AVY,Materials,routine_other,routine_disclosure,-1.2204594536823956,low,581,1,2,0
+AVY_000000000023003698,2023-04-13,AVY,Materials,revenue_non_gaap,non_gaap,-0.8398848948597303,medium,638,5,2,0
+BBY_000000000016088191,2016-08-10,BBY,Consumer Discretionary,revenue_non_gaap,non_gaap,0.8666548712037254,high,1415,15,2,0
+BKR_000000000017014455,2017-04-26,BKR,Energy,business_structure,business_combinations,7.539879902268598,high,3817,51,2,1
+BKR_000000000018030596,2018-09-27,BKR,Energy,accounting_financial_reporting,controls_accounting,-1.4866765516933833,low,423,0,2,0
+BKR_000000000024008308,2024-07-23,BKR,Energy,accounting_financial_reporting,controls_accounting,1.8534301327281186,high,1076,9,3,1
+BRK-B_000000000016092092,2016-09-09,BRK-B,Financials,accounting_financial_reporting,impairment_fair_value,-1.028027082036138,medium,677,2,2,0
+BRK-B_000000000017008779,2017-03-16,BRK-B,Financials,accounting_financial_reporting,tax_debt_equity,1.8281025664815669,high,1895,9,3,0
+BRK-B_000000000019008277,2019-05-09,BRK-B,Financials,accounting_financial_reporting,impairment_fair_value,-1.1764266331098956,low,618,1,2,0
+BRK-B_000000000021008029,2021-06-29,BRK-B,Financials,accounting_financial_reporting,impairment_fair_value,-1.3858800498871933,low,442,1,2,0
+BRK-B_000000000022009598,2022-09-02,BRK-B,Financials,accounting_financial_reporting,controls_accounting,-1.2505713373620169,low,490,2,2,0
+BRK-B_000000000023008134,2023-07-28,BRK-B,Financials,routine_other,routine_disclosure,-1.4418136327765854,low,395,1,2,0
+BRK-B_000000000024009131,2024-08-09,BRK-B,Financials,accounting_financial_reporting,controls_accounting,-1.233550292230977,low,570,1,2,0
+BSX_000000000016070496,2016-03-31,BSX,Health Care,revenue_non_gaap,non_gaap,-0.9637629655249216,medium,731,2,2,0
+BSX_000000000016094201,2016-09-23,BSX,Health Care,accounting_financial_reporting,controls_accounting,0.5947134699946572,high,990,7,3,0
+BXP_000000000017016099,2017-05-08,BXP,Real Estate,mda_liquidity,mda_liquidity,-1.422412435182167,low,477,0,2,0
+BXP_000000000018024571,2018-08-08,BXP,Real Estate,mda_liquidity,mda_liquidity,-0.9775737598482852,medium,588,4,2,0
+BXP_000000000022009471,2022-08-31,BXP,Real Estate,accounting_financial_reporting,controls_accounting,-1.2112988217162735,low,523,2,2,0
+BXP_000000000024009655,2024-08-23,BXP,Real Estate,accounting_financial_reporting,controls_accounting,-1.5235689148757483,low,392,0,2,0
+C_000000000016082386,2016-06-28,C,Financials,accounting_financial_reporting,controls_accounting,2.451928334698267,high,1776,6,3,1
+C_000000000017009750,2017-03-24,C,Financials,accounting_financial_reporting,tax_debt_equity,-0.8236942032217902,medium,402,7,1,1
+C_000000000018014255,2018-05-08,C,Financials,routine_other,other,-1.6994506169966748,low,126,0,1,1
+C_000000000019012201,2019-08-08,C,Financials,accounting_financial_reporting,tax_debt_equity,-1.0716999247212466,medium,706,1,2,0
+C_000000000020008961,2020-09-23,C,Financials,accounting_financial_reporting,controls_accounting,3.2407854262023297,high,1454,10,4,1
+C_000000000022004745,2022-05-02,C,Financials,accounting_financial_reporting,controls_accounting,0.6256554520185762,high,1016,7,3,0
+C_000000000024006685,2024-06-11,C,Financials,mda_liquidity,mda_liquidity,0.878781456332181,high,782,12,2,1
+CARR_000000000019013211,2019-09-05,CARR,Industrials,accounting_financial_reporting,controls_accounting,7.500518150014146,high,1816,26,7,1
+CARR_000000000024006263,2024-05-31,CARR,Industrials,mda_liquidity,mda_liquidity,-1.0739699346151097,medium,507,4,2,0
+CARR_000000000025008021,2025-07-30,CARR,Industrials,routine_other,other,-1.7077811506184988,low,119,0,1,1
+CASY_000000000023001432,2023-02-10,CASY,Consumer Staples,mda_liquidity,mda_liquidity,0.9943292485243497,high,1063,11,3,0
+CASY_000000000024002104,2024-02-26,CASY,Consumer Staples,mda_liquidity,mda_liquidity,-0.9712634008024479,medium,659,3,2,0
+CAT_000000000017022437,2017-06-27,CAT,Industrials,accounting_financial_reporting,tax_debt_equity,1.952926415733104,high,1291,7,3,1
+CAT_000000000022010513,2022-09-23,CAT,Industrials,mda_liquidity,mda_liquidity,-0.0034009967305890787,medium,881,12,2,0
+CAT_000000000024002665,2024-03-11,CAT,Industrials,accounting_financial_reporting,controls_accounting,-0.8613062670301357,medium,620,5,2,0
+CB_000000000016084378,2016-07-14,CB,Financials,accounting_financial_reporting,controls_accounting,1.3545679065113165,high,1051,3,3,1
+CB_000000000017027038,2017-08-01,CB,Financials,mda_liquidity,mda_liquidity,2.3067390344321854,high,1654,6,3,1
+CB_000000000019007690,2019-04-29,CB,Financials,accounting_financial_reporting,controls_accounting,-1.2070086372464233,low,658,0,2,0
+CB_000000000022009599,2022-09-02,CB,Financials,accounting_financial_reporting,controls_accounting,-1.2434308799718816,low,496,2,2,0
+CCI_000000000017015547,2017-05-03,CCI,Real Estate,revenue_non_gaap,non_gaap,-1.5426101345827754,low,376,0,2,0
+CCI_000000000024002292,2024-02-29,CCI,Real Estate,business_structure,business_combinations,13.403189644119825,high,4412,40,9,1
+CCI_000000000025005508,2025-05-22,CCI,Real Estate,accounting_financial_reporting,impairment_fair_value,-1.3771895383779778,low,515,0,2,0
+CDNS_000000000023011586,2023-10-23,CDNS,Information Technology,accounting_financial_reporting,controls_accounting,-1.202968288094449,low,530,2,2,0
+CEG_000000000021010325,2021-08-23,CEG,Utilities,accounting_financial_reporting,controls_accounting,10.1071334896582,high,3808,51,5,1
+CHRW_000000000020011939,2020-12-14,CHRW,Industrials,revenue_non_gaap,non_gaap,-1.234740368462666,low,569,1,2,0
+CIEN_000000000016069477,2016-03-23,CIEN,Information Technology,mda_liquidity,mda_liquidity,-0.8430951456674065,medium,701,4,2,0
+CIEN_000000000017024065,2017-07-10,CIEN,Information Technology,accounting_financial_reporting,controls_accounting,0.8312021644221239,high,1267,15,1,1
+CIEN_000000000018004375,2018-02-08,CIEN,Information Technology,accounting_financial_reporting,controls_accounting,-1.4700154844497348,low,437,0,2,0
+CIEN_000000000020003316,2020-04-16,CIEN,Information Technology,accounting_financial_reporting,controls_accounting,-1.1295435396171105,low,526,3,2,0
+COF_000000000020012214,2020-12-18,COF,Financials,revenue_non_gaap,non_gaap,-1.0732499788403271,medium,639,2,2,0
+COF_000000000022010286,2022-09-20,COF,Financials,accounting_financial_reporting,controls_accounting,-1.3204258571442877,low,497,1,2,0
+COF_000000000023014108,2023-12-27,COF,Financials,mda_liquidity,mda_liquidity,-0.7689504414152853,medium,829,3,2,0
+COF_000000000024005698,2024-05-16,COF,Financials,accounting_financial_reporting,controls_accounting,15.41389563375347,high,5048,100,5,1
+CTSH_000000000017034709,2017-09-29,CTSH,Information Technology,accounting_financial_reporting,controls_accounting,-1.4640651032912888,low,442,0,2,0
+DASH_000000000020002224,2020-03-12,DASH,Consumer Discretionary,accounting_financial_reporting,controls_accounting,3.569538023360109,high,2911,25,1,1
+DASH_000000000020007251,2020-08-10,DASH,Consumer Discretionary,accounting_financial_reporting,controls_accounting,10.464150566343623,high,3976,64,4,1
+DASH_000000000022000022,2022-01-03,DASH,Consumer Discretionary,revenue_non_gaap,non_gaap,0.6709940290648138,high,608,1,3,1
+DRI_000000000018003836,2018-02-02,DRI,Consumer Discretionary,mda_liquidity,mda_liquidity,-0.9148596974561494,medium,575,5,2,0
+EA_000000000019011278,2019-07-18,EA,Communication Services,revenue_non_gaap,revenue,2.594958022788802,high,1883,8,4,0
+EA_999999999721000527,2021-03-29,EA,Communication Services,routine_other,routine_disclosure,-1.2207092890002718,low,318,5,2,0
+EBAY_000000000017028776,2017-08-15,EBAY,Consumer Discretionary,accounting_financial_reporting,tax_debt_equity,3.6070790702447244,high,1499,14,4,1
+EBAY_000000000018030096,2018-09-25,EBAY,Consumer Discretionary,revenue_non_gaap,revenue,3.4322717641134393,high,1680,20,3,1
+EBAY_000000000021005831,2021-05-06,EBAY,Consumer Discretionary,mda_liquidity,mda_liquidity,0.2985239259036073,medium,820,4,2,1
+EBAY_000000000022010339,2022-09-20,EBAY,Consumer Discretionary,accounting_financial_reporting,controls_accounting,-1.2077285930212058,low,526,2,2,0
+EBAY_000000000024010609,2024-09-19,EBAY,Consumer Discretionary,accounting_financial_reporting,controls_accounting,-1.100151611712272,medium,485,4,2,0
+EBAY_000000000025004920,2025-05-08,EBAY,Consumer Discretionary,accounting_financial_reporting,controls_accounting,-0.5227388165314504,medium,327,1,2,1
+ESS_000000000017010663,2017-03-30,ESS,Real Estate,accounting_financial_reporting,controls_accounting,-1.3557681662075722,low,533,0,2,0
+ETN_000000000016063947,2016-02-05,ETN,Industrials,routine_other,routine_disclosure,-2.6435170341072824,low,173,0,1,0
+ETN_000000000017044426,2017-12-20,ETN,Industrials,revenue_non_gaap,non_gaap,-0.07587971147277972,medium,755,2,3,0

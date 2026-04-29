@@ -1,0 +1,36 @@
+{
+  "ticker": "GLW",
+  "thread_id": "GLW_0000000000-23-012635",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-23-012635",
+    "0001206774-23-001290",
+    "0000000000-23-013584",
+    "0001206774-23-001456",
+    "0000000000-24-000115",
+    "0001206774-24-000018",
+    "0001206774-24-000098",
+    "0000000000-24-001830"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

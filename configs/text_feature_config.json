@@ -1,0 +1,171 @@
+{
+  "topic_classifier_version": "v3_grouped_rule_based_regex",
+  "topic_classifier_notes": "V3 keeps V2 regex-derived detail labels as topic_detail, then maps them to 6 high-level topic groups for regression and topic-average CAR visualization. Generic SEC request language remains routine/severity language, not substantive topic evidence.",
+  "topic_priority": [
+    "revenue",
+    "non_gaap",
+    "mda_liquidity",
+    "segments",
+    "impairment_fair_value",
+    "business_combinations",
+    "controls_accounting",
+    "risk_legal_regulatory",
+    "tax_debt_equity"
+  ],
+  "topic_group_mapping": {
+    "controls_accounting": "accounting_financial_reporting",
+    "impairment_fair_value": "accounting_financial_reporting",
+    "tax_debt_equity": "accounting_financial_reporting",
+    "revenue": "revenue_non_gaap",
+    "non_gaap": "revenue_non_gaap",
+    "mda_liquidity": "mda_liquidity",
+    "segments": "business_structure",
+    "business_combinations": "business_structure",
+    "risk_legal_regulatory": "risk_legal_regulatory",
+    "routine_disclosure": "routine_other",
+    "other": "routine_other"
+  },
+  "topic_patterns": {
+    "revenue": [
+      "\\brevenue recognition\\b",
+      "\\brecogniz(?:e|ed|ing) revenue\\b",
+      "\\bASC\\s*606\\b",
+      "\\bASC\\s*605\\b",
+      "\\bperformance obligation[s]?\\b",
+      "\\btransaction price\\b",
+      "\\bdeferred revenue\\b",
+      "\\bcontract assets?\\b",
+      "\\bcontract liabilities\\b",
+      "\\brevenue from contracts? with customers?\\b"
+    ],
+    "non_gaap": [
+      "\\bnon[- ]GAAP\\b",
+      "\\badjusted EBITDA\\b",
+      "\\badjusted earnings\\b",
+      "\\badjusted net income\\b",
+      "\\bfree cash flow\\b",
+      "\\bRegulation G\\b",
+      "\\bItem\\s*10\\(e\\)\\b",
+      "\\bmost directly comparable GAAP\\b",
+      "\\bnon[- ]GAAP financial measures?\\b",
+      "\\breconciliation of non[- ]GAAP\\b"
+    ],
+    "mda_liquidity": [
+      "\\bMD&A\\b",
+      "\\bmanagement[’']?s discussion and analysis\\b",
+      "\\bliquidity\\b",
+      "\\bcapital resources\\b",
+      "\\bresults of operations\\b",
+      "\\bknown trends?\\b",
+      "\\bcritical accounting estimates?\\b",
+      "\\bcash flows?\\b",
+      "\\bworking capital\\b",
+      "\\boperating results\\b"
+    ],
+    "segments": [
+      "\\bsegment reporting\\b",
+      "\\breportable segments?\\b",
+      "\\boperating segments?\\b",
+      "\\bchief operating decision maker\\b",
+      "\\bCODM\\b",
+      "\\bASC\\s*280\\b",
+      "\\bsegment expense[s]?\\b"
+    ],
+    "impairment_fair_value": [
+      "\\bgoodwill\\b",
+      "\\bintangible assets?\\b",
+      "\\bimpairment\\b",
+      "\\bfair value\\b",
+      "\\bvaluation allowance\\b",
+      "\\brecoverability\\b",
+      "\\blong-lived assets?\\b",
+      "\\bindefinite-lived\\b",
+      "\\bdiscount rate\\b",
+      "\\bcarrying value\\b"
+    ],
+    "business_combinations": [
+      "\\bbusiness combination[s]?\\b",
+      "\\bacquisition[s]?\\b",
+      "\\bmerger[s]?\\b",
+      "\\bpurchase price allocation\\b",
+      "\\bpro forma\\b",
+      "\\bcontingent consideration\\b",
+      "\\basset acquisition\\b",
+      "\\bdisposition[s]?\\b"
+    ],
+    "controls_accounting": [
+      "\\binternal control[s]?\\b",
+      "\\bICFR\\b",
+      "\\bdisclosure controls?\\b",
+      "\\bmaterial weakness\\b",
+      "\\bsignificant deficiency\\b",
+      "\\brestatement\\b",
+      "\\bamend(?:ed|ment)?\\b",
+      "\\baccounting policy\\b",
+      "\\bGAAP\\b",
+      "\\bfinancial statement[s]?\\b",
+      "\\bnotes to the financial statements\\b"
+    ],
+    "risk_legal_regulatory": [
+      "\\brisk factors?\\b",
+      "\\blegal proceedings?\\b",
+      "\\blitigation\\b",
+      "\\bcybersecurity\\b",
+      "\\bclimate\\b",
+      "\\bESG\\b",
+      "\\bregulatory\\b",
+      "\\bgoing concern\\b",
+      "\\bmarket risk\\b",
+      "\\bcredit risk\\b",
+      "\\btransition risks?\\b",
+      "\\bphysical risks?\\b"
+    ],
+    "tax_debt_equity": [
+      "\\bincome tax(?:es)?\\b",
+      "\\btax rate\\b",
+      "\\btax benefit[s]?\\b",
+      "\\bdebt\\b",
+      "\\bconvertible\\b",
+      "\\bwarrants?\\b",
+      "\\bearnings per share\\b",
+      "\\bEPS\\b",
+      "\\bshare-based compensation\\b",
+      "\\bstock compensation\\b"
+    ]
+  },
+  "routine_disclosure_patterns": [
+    "\\bplease revise\\b",
+    "\\bplease tell us\\b",
+    "\\bplease disclose\\b",
+    "\\bclarify\\b",
+    "\\bexplain\\b",
+    "\\bdisclose\\b",
+    "\\bdisclosure\\b",
+    "\\bfiling\\b",
+    "\\bform 10-k\\b",
+    "\\bform 10-q\\b"
+  ],
+  "topic_keywords": {},
+  "intensity_terms": [
+    "material",
+    "significant",
+    "deficiency",
+    "revise",
+    "explain",
+    "clarify",
+    "amend",
+    "restatement",
+    "weakness",
+    "inconsistent",
+    "non-compliance",
+    "materially",
+    "substantive"
+  ],
+  "severity_components": [
+    "letter_word_count",
+    "intensity_term_count",
+    "thread_round_count",
+    "amendment_indicator"
+  ],
+  "severity_bucket_method": "tercile"
+}

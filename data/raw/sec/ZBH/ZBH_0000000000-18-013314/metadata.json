@@ -1,0 +1,24 @@
+{
+  "ticker": "ZBH",
+  "thread_id": "ZBH_0000000000-18-013314",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-18-013314",
+    "0001564590-18-012768",
+    "0001564590-18-017270",
+    "0000000000-18-027498"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

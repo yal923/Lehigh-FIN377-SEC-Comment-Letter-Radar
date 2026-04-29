@@ -1,0 +1,121 @@
+# Progress
+
+## Current Snapshot
+
+- Current task: Convert the V3 notebook prototype into the official project structure and presentation workflow.
+- Current state: Git baseline exists at `d408942`. `Archive Prototype/` retains the completed V3 notebook run. The official root now has `run.py`, `app.py`, `code/`, `configs/`, `data/`, `outputs/`, `pages/`, and `docs/`.
+- Completed:
+  - Created the official project structure.
+  - Implemented `code/01_sp500_reference.py`.
+  - Implemented `run.py --step sp500`.
+  - Generated active S&P 500 reference artifacts from live Wikipedia data.
+  - Created `configs/sample_100_10y.json` from the validated prototype sample config.
+  - Implemented `code/02_sec_raw_inventory.py`.
+  - Implemented `run.py --step sec_raw`.
+  - Copied the 100-company 10-year SEC raw cache into official `data/raw/sec/`.
+  - Generated SEC raw inventory workflow artifacts: `02_sec_raw_summary.json`, `02_sec_raw_preview.csv`, `02_sec_thread_inventory.csv`, and `sec_raw_form_summary.csv`.
+  - Filled the Background & Methods SEC Raw Download tab with real preview data.
+  - Implemented `code/03_thread_dataset.py`.
+  - Implemented `run.py --step threads`.
+  - Generated paired CSV/Parquet thread datasets: `thread_filing_manifest` and `thread_level`.
+  - Filled the Background & Methods Filing to Thread tab with real preview data.
+  - Implemented `code/04_event_dataset.py`.
+  - Implemented `run.py --step events`.
+  - Generated paired CSV/Parquet event datasets: `event_level_raw` and `event_level_base`.
+  - Filled the Background & Methods Event Dataset tab with real preview data.
+  - Implemented `code/05_text_features.py`.
+  - Implemented `run.py --step text_features`.
+  - Copied the validated V3 text-feature config into `configs/text_feature_config.json`.
+  - Generated paired CSV/Parquet event datasets with topic and severity fields.
+  - Filled the Background & Methods Text Features tab with real preview data.
+  - Implemented `code/06_market_data.py`.
+  - Implemented `run.py --step market`.
+  - Copied the archived market-price cache into official `data/raw/market/`.
+  - Generated paired CSV/Parquet market datasets and coverage summary.
+  - Filled the Background & Methods Market Data tab with real preview data.
+  - Implemented `code/07_event_study_regression.py`.
+  - Implemented `run.py --step event_study`.
+  - Generated event-time, CAR, regression dataset, regression tables, CAR summary tables, and figures.
+  - Filled the Background & Methods Event Study & Regression tab with real preview data.
+  - Updated Final Results to read official outputs instead of archived prototype artifacts.
+  - Polished Final Results v1 with topic-selectable CAR, relative-day window control, and a regression playground for CAR window, industry controls, and pre-event volatility controls.
+  - Prepared GitHub submission version: added README, ignored personal/local workflow files, removed `Archive Prototype/` from Git tracking while keeping it locally, and made cache-backed steps work from official `data/` caches without archive.
+  - Created the first Streamlit workflow page with a Step 1 table preview, sector summary, output-file list, and QA notes.
+  - Updated the presentation design to match the instructor-style structure: sidebar pages plus horizontal tabs under Background & Methods.
+  - Recorded the paired-format policy: CSV/JSON for human validation, Parquet for efficient pandas/Streamlit loading.
+  - Recorded shared raw-cache, optional full S&P 500 extension, and limited regression-control decisions.
+  - Added project structure and decision docs.
+- Active blockers:
+  - Reference Streamlit app structure could not be inspected through non-JS web scraping; user may provide screenshots for visual/page-order alignment.
+- Next step:
+  - Add a GitHub remote and push the clean submission branch/repo.
+- Key files:
+  - `run.py`
+  - `app.py`
+  - `code/01_sp500_reference.py`
+  - `code/02_sec_raw_inventory.py`
+  - `code/03_thread_dataset.py`
+  - `code/04_event_dataset.py`
+  - `code/05_text_features.py`
+  - `code/06_market_data.py`
+  - `code/07_event_study_regression.py`
+  - `configs/sample_100_10y.json`
+  - `configs/text_feature_config.json`
+  - `pages/01_Background_and_Methods.py`
+  - `docs/project_structure.md`
+  - `docs/decisions.md`
+  - `docs/progress.md`
+  - `data/raw/reference/sp500_constituents.csv`
+  - `data/raw/sec/`
+  - `data/raw/market/`
+  - `data/processed/thread_filing_manifest.csv`
+  - `data/processed/thread_filing_manifest.parquet`
+  - `data/processed/thread_level.csv`
+  - `data/processed/thread_level.parquet`
+  - `data/processed/event_level_raw.csv`
+  - `data/processed/event_level_raw.parquet`
+  - `data/processed/event_level_base.csv`
+  - `data/processed/event_level_base.parquet`
+  - `data/processed/event_level.csv`
+  - `data/processed/event_level.parquet`
+  - `data/processed/market_data.csv`
+  - `data/processed/market_data.parquet`
+  - `data/processed/event_time.csv`
+  - `data/processed/event_time.parquet`
+  - `data/processed/event_time_qa.csv`
+  - `data/processed/regression_dataset.csv`
+  - `data/processed/regression_dataset.parquet`
+  - `outputs/workflow/01_sp500_reference_summary.json`
+  - `outputs/workflow/01_sp500_reference_preview.csv`
+  - `outputs/workflow/02_sec_raw_summary.json`
+  - `outputs/workflow/02_sec_raw_preview.csv`
+  - `outputs/workflow/02_sec_thread_inventory.csv`
+  - `outputs/workflow/03_thread_dataset_summary.json`
+  - `outputs/workflow/03_thread_preview.csv`
+  - `outputs/workflow/03_thread_filing_preview.csv`
+  - `outputs/workflow/04_event_dataset_summary.json`
+  - `outputs/workflow/04_event_preview.csv`
+  - `outputs/workflow/05_text_features_summary.json`
+  - `outputs/workflow/05_text_features_preview.csv`
+  - `outputs/workflow/06_market_data_summary.json`
+  - `outputs/workflow/06_market_data_preview.csv`
+  - `outputs/workflow/07_event_study_regression_summary.json`
+  - `outputs/workflow/07_event_time_preview.csv`
+  - `outputs/workflow/07_regression_dataset_preview.csv`
+  - `outputs/tables/sp500_sector_summary.csv`
+  - `outputs/tables/sec_raw_form_summary.csv`
+  - `outputs/tables/thread_role_summary.csv`
+  - `outputs/tables/event_inclusion_summary.csv`
+  - `outputs/tables/topic_summary.csv`
+  - `outputs/tables/topic_detail_summary.csv`
+  - `outputs/tables/severity_bucket_summary.csv`
+  - `outputs/tables/market_coverage_summary.csv`
+  - `outputs/tables/average_car.csv`
+  - `outputs/tables/topic_average_car.csv`
+  - `outputs/tables/topic_car_summary.csv`
+  - `outputs/tables/event_summary.csv`
+  - `outputs/tables/baseline_regression.csv`
+  - `outputs/tables/regression_CAR_-3_-1.csv`
+  - `outputs/tables/regression_CAR_1_60.csv`
+  - `outputs/figures/average_car_plot.png`
+  - `outputs/figures/topic_average_car.png`

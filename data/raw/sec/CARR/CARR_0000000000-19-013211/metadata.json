@@ -1,0 +1,48 @@
+{
+  "ticker": "CARR",
+  "thread_id": "CARR_0000000000-19-013211",
+  "forms_in_thread": [
+    "UPLOAD",
+    "UPLOAD",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "SEC STAFF ACTION",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "STAFF_ACTION",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE"
+  ],
+  "accessions": [
+    "0000000000-19-013211",
+    "0000000000-19-014100",
+    "0000000000-19-015940",
+    "0001140361-20-005616",
+    "0000000000-20-002300",
+    "9999999997-20-001234",
+    "0000000000-20-002456",
+    "0001140361-20-007150",
+    "0000000000-20-010468",
+    "0001140361-20-024496",
+    "0000000000-24-000661",
+    "0001140361-24-002849"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

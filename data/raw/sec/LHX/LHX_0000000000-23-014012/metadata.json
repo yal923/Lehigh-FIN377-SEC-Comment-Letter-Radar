@@ -1,0 +1,27 @@
+{
+  "ticker": "LHX",
+  "thread_id": "LHX_0000000000-23-014012",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-23-014012",
+    "0000202058-24-000009",
+    "0000000000-24-000568",
+    "0000202058-24-000012",
+    "0000000000-24-001272"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

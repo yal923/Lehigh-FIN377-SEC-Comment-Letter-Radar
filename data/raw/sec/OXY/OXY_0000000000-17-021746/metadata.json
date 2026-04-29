@@ -1,0 +1,27 @@
+{
+  "ticker": "OXY",
+  "thread_id": "OXY_0000000000-17-021746",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-17-021746",
+    "0000797468-17-000013",
+    "0000000000-17-030298",
+    "0000797468-17-000022",
+    "0000000000-17-034572"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

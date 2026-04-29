@@ -1,0 +1,27 @@
+{
+  "ticker": "C",
+  "thread_id": "C_0000000000-22-004745",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-22-004745",
+    "0001104659-22-057816",
+    "0000000000-22-005808",
+    "0000831001-22-000087",
+    "0000000000-22-006201"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

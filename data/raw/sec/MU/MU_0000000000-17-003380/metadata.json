@@ -1,0 +1,27 @@
+{
+  "ticker": "MU",
+  "thread_id": "MU_0000000000-17-003380",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-17-003380",
+    "0000723125-17-000016",
+    "0000000000-17-005705",
+    "0000723125-17-000023",
+    "0000000000-17-006935"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

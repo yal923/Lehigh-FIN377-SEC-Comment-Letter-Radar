@@ -1,0 +1,33 @@
+{
+  "ticker": "C",
+  "thread_id": "C_0000000000-20-008961",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "UPLOAD",
+    "CORRESP"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "FILER_RESPONSE"
+  ],
+  "accessions": [
+    "0000000000-20-008961",
+    "0000831001-20-000101",
+    "0000000000-21-001093",
+    "0001104659-21-020809",
+    "0000000000-21-002263",
+    "0000000000-21-005263",
+    "0001193125-21-154908"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

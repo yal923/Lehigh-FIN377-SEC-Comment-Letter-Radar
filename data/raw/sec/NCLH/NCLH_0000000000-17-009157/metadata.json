@@ -1,0 +1,21 @@
+{
+  "ticker": "NCLH",
+  "thread_id": "NCLH_0000000000-17-009157",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-17-009157",
+    "0001571049-17-003083",
+    "0000000000-17-012604"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

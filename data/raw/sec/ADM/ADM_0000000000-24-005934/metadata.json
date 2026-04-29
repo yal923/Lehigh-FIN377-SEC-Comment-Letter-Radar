@@ -1,0 +1,42 @@
+{
+  "ticker": "ADM",
+  "thread_id": "ADM_0000000000-24-005934",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-24-005934",
+    "0001193125-24-149010",
+    "0001193125-24-159925",
+    "0000000000-24-010044",
+    "0001193125-24-215905",
+    "0001193125-24-228530",
+    "0000000000-24-012212",
+    "0001193125-24-255986",
+    "0001193125-24-260674",
+    "0000000000-24-013950"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

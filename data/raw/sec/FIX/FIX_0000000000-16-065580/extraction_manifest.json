@@ -1,0 +1,28 @@
+[
+  {
+    "accessionNumber":"0000000000-16-065580",
+    "filingDate":"2016-02-19T00:00:00.000",
+    "acceptanceDateTime":"2016-02-19T19:51:58.000Z",
+    "form":"UPLOAD",
+    "fileNumber":"",
+    "primaryDocument":"filename1.pdf",
+    "primaryDocDescription":"",
+    "isXBRL":0,
+    "isInlineXBRL":0,
+    "source_file":"company_submissions.json",
+    "normalized_form":"STAFF_LETTER",
+    "form_role":"event_anchor",
+    "ticker":"FIX",
+    "cik":"0001035983",
+    "firm_name":"Comfort Systems USA",
+    "industry":"Industrials",
+    "thread_id":"FIX_0000000000-16-065580",
+    "qa_status":"thread_anchor",
+    "document_name":"filename1.pdf",
+    "document_url":"https:\/\/www.sec.gov\/Archives\/edgar\/data\/1035983\/000000000016065580\/filename1.pdf",
+    "raw_document_path":"data\/raw\/sec\/FIX\/FIX_0000000000-16-065580\/filings\/0000000000-16-065580\/filename1.pdf",
+    "extracted_text_path":"data\/raw\/sec\/FIX\/FIX_0000000000-16-065580\/extracted_text\/0000000000-16-065580.txt",
+    "extraction_status":"ok",
+    "letter_word_count_file":172
+  }
+]

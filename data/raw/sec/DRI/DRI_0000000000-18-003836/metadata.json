@@ -1,0 +1,21 @@
+{
+  "ticker": "DRI",
+  "thread_id": "DRI_0000000000-18-003836",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-18-003836",
+    "0000940944-18-000025",
+    "0000000000-18-005915"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

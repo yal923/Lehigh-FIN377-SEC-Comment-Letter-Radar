@@ -1,0 +1,24 @@
+{
+  "ticker": "MS",
+  "thread_id": "MS_0000000000-20-012228",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "CORRESP"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE"
+  ],
+  "accessions": [
+    "0000000000-20-012228",
+    "0001140361-21-001461",
+    "0001140361-21-002148",
+    "0000950103-24-005154"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

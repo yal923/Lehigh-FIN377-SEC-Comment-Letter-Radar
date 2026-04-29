@@ -1,0 +1,27 @@
+{
+  "ticker": "CAT",
+  "thread_id": "CAT_0000000000-17-022437",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-17-022437",
+    "0001104659-17-046164",
+    "0000000000-17-029232",
+    "0000018230-17-000266",
+    "0000000000-17-031766"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

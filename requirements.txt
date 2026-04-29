@@ -1,0 +1,10 @@
+pandas
+numpy
+requests
+beautifulsoup4
+yfinance
+matplotlib
+statsmodels
+streamlit
+pyarrow
+pypdf

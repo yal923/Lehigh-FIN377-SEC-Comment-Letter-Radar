@@ -1,0 +1,39 @@
+{
+  "ticker": "MET",
+  "thread_id": "MET_0000000000-17-042540",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-17-042540",
+    "0001193125-17-373675",
+    "0000000000-18-002006",
+    "0000000000-18-011238",
+    "0001193125-18-129047",
+    "0001193125-18-159426",
+    "0000000000-18-018204",
+    "0001193125-18-215650",
+    "0000000000-18-025128"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

@@ -1,0 +1,21 @@
+{
+  "ticker": "A",
+  "thread_id": "A_0000000000-16-092800",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-16-092800",
+    "0001090872-16-000078",
+    "0000000000-16-095373"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

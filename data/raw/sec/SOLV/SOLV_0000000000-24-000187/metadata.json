@@ -1,0 +1,24 @@
+{
+  "ticker": "SOLV",
+  "thread_id": "SOLV_0000000000-24-000187",
+  "forms_in_thread": [
+    "UPLOAD",
+    "UPLOAD",
+    "UPLOAD",
+    "CORRESP"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "FILER_RESPONSE"
+  ],
+  "accessions": [
+    "0000000000-24-000187",
+    "0000000000-24-001399",
+    "0000000000-24-001838",
+    "0001628280-24-005596"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

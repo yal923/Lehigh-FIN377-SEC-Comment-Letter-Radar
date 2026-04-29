@@ -1,0 +1,42 @@
+{
+  "ticker": "TAP",
+  "thread_id": "TAP_0000000000-16-060314",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "UPLOAD",
+    "CORRESP"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "STAFF_LETTER",
+    "FILER_RESPONSE"
+  ],
+  "accessions": [
+    "0000000000-16-060314",
+    "0001104659-16-088839",
+    "0000000000-16-061387",
+    "0000000000-16-069909",
+    "0001104659-16-110081",
+    "0001104659-16-111536",
+    "0001104659-16-118362",
+    "0000000000-16-076352",
+    "0000000000-17-039686",
+    "0001104659-17-067415"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

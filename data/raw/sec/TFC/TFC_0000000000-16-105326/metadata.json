@@ -1,0 +1,21 @@
+{
+  "ticker": "TFC",
+  "thread_id": "TFC_0000000000-16-105326",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-16-105326",
+    "0000092230-16-000219",
+    "0000000000-17-000490"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

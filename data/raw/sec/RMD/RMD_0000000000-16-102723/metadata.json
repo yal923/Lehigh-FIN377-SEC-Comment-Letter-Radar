@@ -1,0 +1,24 @@
+{
+  "ticker": "RMD",
+  "thread_id": "RMD_0000000000-16-102723",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-16-102723",
+    "0001193125-16-799178",
+    "0000000000-17-000462",
+    "0000000000-17-001666"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}

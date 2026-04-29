@@ -1,0 +1,30 @@
+{
+  "ticker": "XYZ",
+  "thread_id": "XYZ_0000000000-18-025443",
+  "forms_in_thread": [
+    "UPLOAD",
+    "CORRESP",
+    "CORRESP",
+    "UPLOAD",
+    "CORRESP",
+    "UPLOAD"
+  ],
+  "normalized_forms_in_thread": [
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "FILER_RESPONSE",
+    "STAFF_LETTER",
+    "FILER_RESPONSE",
+    "STAFF_LETTER"
+  ],
+  "accessions": [
+    "0000000000-18-025443",
+    "0001193125-18-260894",
+    "0001193125-18-302160",
+    "0000000000-18-034169",
+    "0001193125-18-335553",
+    "0000000000-19-015901"
+  ],
+  "sample_start_date": "2016-01-01",
+  "sample_end_date": "2026-04-28"
+}
