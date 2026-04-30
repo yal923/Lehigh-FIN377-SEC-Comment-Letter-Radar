@@ -2,7 +2,7 @@
   "step_id": "06_market_data",
   "step_name": "Market Data",
   "status": "complete",
-  "source": "active_market_cache",
+  "source": "refreshed_yfinance_cache",
   "output_files": [
     "data/raw/market",
     "data/processed/market_data.csv",
@@ -12,20 +12,24 @@
     "outputs/workflow/06_market_data_summary.json"
   ],
   "metrics": {
-    "row_count": 239795,
+    "row_count": 252351,
     "ticker_count": 94,
     "event_ticker_count": 93,
     "event_ticker_covered_count": 93,
     "event_ticker_missing_count": 0,
     "benchmark_ticker": "SPY",
-    "start_date": "2015-09-09",
+    "required_start_date": "2015-02-09",
+    "required_end_date": "2026-02-16",
+    "start_date": "2015-02-10",
     "end_date": "2026-03-17",
-    "raw_market_cache_mb": 20.55,
-    "created_at_utc": "2026-04-29T18:33:32.996879+00:00"
+    "raw_market_cache_mb": 41.89,
+    "created_at_utc": "2026-04-29T20:04:58.130381+00:00"
   },
   "notes": [
     "Used existing official market cache in data/raw/market.",
-    "Market prices are imported from the archived yfinance cache for reproducibility; no live market download is performed in this baseline step.",
+    "Extended market cache with yfinance because the official cache did not cover the configured pre-event volatility window.",
+    "Added cache files: data/raw/market/prices_2015-02-09_2026-02-16_ff8d86f68eff.csv, data/raw/market/prices_2015-02-09_2026-02-16_ff8d86f68eff.parquet",
+    "Market prices are loaded from official raw cache and refreshed with yfinance only if the configured event/pre-event window requires additional coverage.",
     "The dataset includes event tickers plus the configured benchmark ticker for later abnormal-return construction.",
     "All event tickers are covered by the market cache."
   ]

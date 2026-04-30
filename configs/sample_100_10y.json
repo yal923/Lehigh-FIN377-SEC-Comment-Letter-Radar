@@ -617,7 +617,9 @@
     }
   },
   "benchmark_ticker": "SPY",
-  "event_window_start": -3,
+  "event_window_start": -150,
   "event_window_end": 60,
+  "pre_event_volatility_start": -150,
+  "pre_event_volatility_end": -31,
   "sec_identity": "Lehigh University yal923@lehigh.edu"
 }

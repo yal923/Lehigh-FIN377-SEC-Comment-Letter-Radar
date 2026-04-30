@@ -2,12 +2,14 @@ from __future__ import annotations
 
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
+import hashlib
 import json
 from pathlib import Path
 import shutil
 from typing import Any
 
 import pandas as pd
+import yfinance as yf
 
 
 @dataclass
@@ -59,9 +61,9 @@ def read_cached_market_prices(root: Path) -> pd.DataFrame:
     parquet_files = sorted(market_dir.glob("prices_*.parquet"))
     csv_files = sorted(market_dir.glob("prices_*.csv"))
     if parquet_files:
-        df = pd.read_parquet(parquet_files[-1])
+        df = pd.concat((pd.read_parquet(path) for path in parquet_files), ignore_index=True)
     elif csv_files:
-        df = pd.read_csv(csv_files[-1])
+        df = pd.concat((pd.read_csv(path) for path in csv_files), ignore_index=True)
     else:
         raise FileNotFoundError(f"No cached market price files found in {market_dir}")
 
@@ -76,7 +78,113 @@ def read_cached_market_prices(root: Path) -> pd.DataFrame:
     df["close"] = pd.to_numeric(df["close"], errors="coerce")
     df["volume"] = pd.to_numeric(df["volume"], errors="coerce")
     df["return"] = pd.to_numeric(df["return"], errors="coerce")
-    return df.dropna(subset=["date", "ticker", "return"]).sort_values(["ticker", "date"]).reset_index(drop=True)
+    return (
+        df.dropna(subset=["date", "ticker", "return"])
+        .drop_duplicates(["ticker", "date"], keep="last")
+        .sort_values(["ticker", "date"])
+        .reset_index(drop=True)
+    )
+
+
+def required_market_bounds(events: pd.DataFrame, config: dict[str, Any]) -> tuple[pd.Timestamp, pd.Timestamp]:
+    event_start = int(config.get("event_window_start", -150))
+    event_end = int(config.get("event_window_end", 60))
+    start_buffer_days = abs(event_start) * 2 + 30
+    end_buffer_days = max(event_end, 0) * 2 + 30
+    event_dates = pd.to_datetime(events["event_date"], errors="coerce").dropna()
+    return (
+        event_dates.min() - pd.Timedelta(days=start_buffer_days),
+        event_dates.max() + pd.Timedelta(days=end_buffer_days),
+    )
+
+
+def required_market_bounds_by_ticker(
+    events: pd.DataFrame,
+    config: dict[str, Any],
+    benchmark_ticker: str,
+) -> dict[str, tuple[pd.Timestamp, pd.Timestamp]]:
+    global_start, global_end = required_market_bounds(events, config)
+    event_start = int(config.get("event_window_start", -150))
+    event_end = int(config.get("event_window_end", 60))
+    start_buffer_days = abs(event_start) * 2 + 30
+    end_buffer_days = max(event_end, 0) * 2 + 30
+    bounds: dict[str, tuple[pd.Timestamp, pd.Timestamp]] = {benchmark_ticker: (global_start, global_end)}
+    temp = events[["ticker", "event_date"]].copy()
+    temp["event_date"] = pd.to_datetime(temp["event_date"], errors="coerce")
+    temp = temp.dropna(subset=["ticker", "event_date"])
+    for ticker, group in temp.groupby("ticker"):
+        bounds[str(ticker)] = (
+            group["event_date"].min() - pd.Timedelta(days=start_buffer_days),
+            group["event_date"].max() + pd.Timedelta(days=end_buffer_days),
+        )
+    return bounds
+
+
+def cache_covers_required_window(
+    market_data: pd.DataFrame,
+    required_bounds: dict[str, tuple[pd.Timestamp, pd.Timestamp]],
+) -> bool:
+    coverage = market_data[market_data["ticker"].isin(required_bounds)].groupby("ticker")["date"].agg(["min", "max"])
+    if set(required_bounds) - set(coverage.index):
+        return False
+    return all(
+        coverage.loc[ticker, "min"] <= start and coverage.loc[ticker, "max"] >= end
+        for ticker, (start, end) in required_bounds.items()
+    )
+
+
+def download_market_prices(
+    tickers: list[str],
+    start_date: pd.Timestamp,
+    end_date: pd.Timestamp,
+) -> pd.DataFrame:
+    download_end = end_date + pd.Timedelta(days=1)
+    raw = yf.download(
+        tickers=tickers,
+        start=start_date.date().isoformat(),
+        end=download_end.date().isoformat(),
+        auto_adjust=True,
+        group_by="ticker",
+        progress=False,
+        threads=True,
+    )
+    if raw.empty:
+        raise RuntimeError("yfinance returned an empty market dataset.")
+
+    frames: list[pd.DataFrame] = []
+    for ticker in tickers:
+        if isinstance(raw.columns, pd.MultiIndex):
+            if ticker not in raw.columns.get_level_values(0):
+                continue
+            ticker_raw = raw[ticker].copy()
+        else:
+            ticker_raw = raw.copy()
+        close_col = "Close" if "Close" in ticker_raw.columns else "Adj Close"
+        if close_col not in ticker_raw.columns:
+            continue
+        frame = ticker_raw[[close_col, "Volume"]].reset_index()
+        frame.columns = ["date", "close", "volume"]
+        frame["ticker"] = ticker
+        frame["return"] = frame["close"].pct_change()
+        frames.append(frame[["date", "ticker", "close", "volume", "return"]])
+
+    if not frames:
+        raise RuntimeError("No usable yfinance price columns were returned.")
+    prices = pd.concat(frames, ignore_index=True)
+    prices["date"] = pd.to_datetime(prices["date"], errors="coerce")
+    return prices.dropna(subset=["date", "ticker", "return"]).sort_values(["ticker", "date"]).reset_index(drop=True)
+
+
+def write_market_cache(root: Path, prices: pd.DataFrame, start_date: pd.Timestamp, end_date: pd.Timestamp) -> tuple[Path, Path]:
+    market_dir = root / "data" / "raw" / "market"
+    market_dir.mkdir(parents=True, exist_ok=True)
+    tickers_hash = hashlib.sha1("|".join(sorted(prices["ticker"].unique())).encode("utf-8")).hexdigest()[:12]
+    stem = f"prices_{start_date.date().isoformat()}_{end_date.date().isoformat()}_{tickers_hash}"
+    csv_path = market_dir / f"{stem}.csv"
+    parquet_path = market_dir / f"{stem}.parquet"
+    prices.to_csv(csv_path, index=False)
+    prices.to_parquet(parquet_path, index=False)
+    return csv_path, parquet_path
 
 
 def build_market_data(root: Path, copy_from_archive: bool = True) -> StepResult:
@@ -103,6 +211,18 @@ def build_market_data(root: Path, copy_from_archive: bool = True) -> StepResult:
     required_tickers = sorted(set(event_tickers) | {benchmark_ticker})
 
     raw_market = read_cached_market_prices(root)
+    required_start, required_end = required_market_bounds(events, config)
+    required_bounds = required_market_bounds_by_ticker(events, config, benchmark_ticker)
+    if not cache_covers_required_window(raw_market, required_bounds):
+        refreshed_market = download_market_prices(required_tickers, required_start, required_end)
+        cache_csv, cache_parquet = write_market_cache(root, refreshed_market, required_start, required_end)
+        raw_market = read_cached_market_prices(root)
+        source = "refreshed_yfinance_cache"
+        notes.append(
+            "Extended market cache with yfinance because the official cache did not cover the configured pre-event volatility window."
+        )
+        notes.append(f"Added cache files: {cache_csv.relative_to(root)}, {cache_parquet.relative_to(root)}")
+
     market_data = raw_market[raw_market["ticker"].isin(required_tickers)].copy()
     market_data["is_benchmark"] = market_data["ticker"].eq(benchmark_ticker)
     market_data["is_event_ticker"] = market_data["ticker"].isin(event_tickers)
@@ -153,15 +273,17 @@ def build_market_data(root: Path, copy_from_archive: bool = True) -> StepResult:
         "event_ticker_count": int(len(event_tickers)),
         "event_ticker_covered_count": int(len(covered_event_tickers)),
         "event_ticker_missing_count": int(len(missing_event_tickers)),
-        "benchmark_ticker": benchmark_ticker,
-        "start_date": market_data["date"].min().date().isoformat() if not market_data.empty else None,
-        "end_date": market_data["date"].max().date().isoformat() if not market_data.empty else None,
-        "raw_market_cache_mb": raw_market_mb,
+            "benchmark_ticker": benchmark_ticker,
+            "required_start_date": required_start.date().isoformat(),
+            "required_end_date": required_end.date().isoformat(),
+            "start_date": market_data["date"].min().date().isoformat() if not market_data.empty else None,
+            "end_date": market_data["date"].max().date().isoformat() if not market_data.empty else None,
+            "raw_market_cache_mb": raw_market_mb,
         "created_at_utc": datetime.now(timezone.utc).isoformat(),
     }
     notes.extend(
         [
-            "Market prices are imported from the archived yfinance cache for reproducibility; no live market download is performed in this baseline step.",
+            "Market prices are loaded from official raw cache and refreshed with yfinance only if the configured event/pre-event window requires additional coverage.",
             "The dataset includes event tickers plus the configured benchmark ticker for later abnormal-return construction.",
             f"Missing event tickers: {missing_event_tickers}" if missing_event_tickers else "All event tickers are covered by the market cache.",
         ]

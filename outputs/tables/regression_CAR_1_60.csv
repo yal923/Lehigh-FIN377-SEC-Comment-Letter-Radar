@@ -1,9 +1,9 @@
 window,term,coefficient,std_error,t_stat,p_value,formula,n_obs
-CAR_1_60,Intercept,0.02155380028499463,0.011264455668455247,1.9134346939953304,0.05569242645370824,"Q(""CAR_1_60"") ~ severity_score + pre_event_volatility + C(topic)",273
-CAR_1_60,C(topic)[T.business_structure],-0.06084439316708501,0.029733250936514757,-2.0463417638722894,0.040722757398871115,"Q(""CAR_1_60"") ~ severity_score + pre_event_volatility + C(topic)",273
-CAR_1_60,C(topic)[T.mda_liquidity],-0.015133005691382009,0.028366027837975188,-0.5334904759249587,0.5936941021543289,"Q(""CAR_1_60"") ~ severity_score + pre_event_volatility + C(topic)",273
-CAR_1_60,C(topic)[T.revenue_non_gaap],-5.232143465256755e-05,0.021535998551401463,-0.0024294872851002634,0.9980615515114709,"Q(""CAR_1_60"") ~ severity_score + pre_event_volatility + C(topic)",273
-CAR_1_60,C(topic)[T.risk_legal_regulatory],-0.06272758867387497,0.03828446190966384,-1.6384607630606698,0.10132561262624841,"Q(""CAR_1_60"") ~ severity_score + pre_event_volatility + C(topic)",273
-CAR_1_60,C(topic)[T.routine_other],0.0036085473189581157,0.019698002930599187,0.1831935618890858,0.8546461457561105,"Q(""CAR_1_60"") ~ severity_score + pre_event_volatility + C(topic)",273
-CAR_1_60,severity_score,-0.001005473989232655,0.0028209307434566865,-0.35643341885117547,0.7215160059488743,"Q(""CAR_1_60"") ~ severity_score + pre_event_volatility + C(topic)",273
-CAR_1_60,pre_event_volatility,-0.7272753408596114,0.5776019351963743,-1.259128989262044,0.20798374512472773,"Q(""CAR_1_60"") ~ severity_score + pre_event_volatility + C(topic)",273
+CAR_1_60,C(topic)[accounting_financial_reporting],0.058474548756150255,0.027772258905364517,2.1055020751248743,0.03524762687631958,"Q(""CAR_1_60"") ~ 0 + C(topic) + severity_score + pre_event_volatility",273
+CAR_1_60,C(topic)[business_structure],-0.011922437584650978,0.03638321058420367,-0.3276906406337677,0.743145580702733,"Q(""CAR_1_60"") ~ 0 + C(topic) + severity_score + pre_event_volatility",273
+CAR_1_60,C(topic)[mda_liquidity],0.04691945396031116,0.02763093003496565,1.6980772598293572,0.0894931808942209,"Q(""CAR_1_60"") ~ 0 + C(topic) + severity_score + pre_event_volatility",273
+CAR_1_60,C(topic)[revenue_non_gaap],0.06479941782047831,0.035579316839136406,1.8212664991139034,0.06856635628153514,"Q(""CAR_1_60"") ~ 0 + C(topic) + severity_score + pre_event_volatility",273
+CAR_1_60,C(topic)[risk_legal_regulatory],0.006350606361402309,0.050080687752186145,0.1268074909998633,0.8990927666448941,"Q(""CAR_1_60"") ~ 0 + C(topic) + severity_score + pre_event_volatility",273
+CAR_1_60,C(topic)[routine_other],0.06757660560487429,0.03435807403008617,1.9668333430360445,0.04920242720665965,"Q(""CAR_1_60"") ~ 0 + C(topic) + severity_score + pre_event_volatility",273
+CAR_1_60,severity_score,-0.00022280314866950524,0.0028959322561190157,-0.07693658862313821,0.9386739902841451,"Q(""CAR_1_60"") ~ 0 + C(topic) + severity_score + pre_event_volatility",273
+CAR_1_60,pre_event_volatility,-2.5800107243755157,1.5205908196169053,-1.6967159679587691,0.0897503723040162,"Q(""CAR_1_60"") ~ 0 + C(topic) + severity_score + pre_event_volatility",273

@@ -29,6 +29,40 @@ class StepResult:
     notes: list[str]
 
 
+OUTCOME_WINDOWS = [
+    {"outcome": "CAR_-3_-1", "outcome_label": "CAR[-3,-1]"},
+    {"outcome": "CAR_-1_3", "outcome_label": "CAR[-1,+3]"},
+    {"outcome": "CAR_1_60", "outcome_label": "CAR[+1,+60]"},
+]
+
+CONTROL_SPECS = [
+    {
+        "spec_id": "topic_severity",
+        "spec_label": "Topic + severity",
+        "include_pre_event_volatility": False,
+        "include_industry": False,
+    },
+    {
+        "spec_id": "topic_severity_pre_volatility",
+        "spec_label": "Topic + severity + pre-volatility",
+        "include_pre_event_volatility": True,
+        "include_industry": False,
+    },
+    {
+        "spec_id": "topic_severity_industry",
+        "spec_label": "Topic + severity + industry",
+        "include_pre_event_volatility": False,
+        "include_industry": True,
+    },
+    {
+        "spec_id": "topic_severity_pre_volatility_industry",
+        "spec_label": "Topic + severity + pre-volatility + industry",
+        "include_pre_event_volatility": True,
+        "include_industry": True,
+    },
+]
+
+
 def project_root() -> Path:
     return Path(__file__).resolve().parents[1]
 
@@ -130,7 +164,12 @@ def car_window(event_time: pd.DataFrame, start: int, end: int) -> pd.Series:
     return temp.groupby("event_id")["abnormal_return"].sum().rename(f"CAR_{start}_{end}")
 
 
-def build_regression_dataset(events: pd.DataFrame, event_time: pd.DataFrame) -> pd.DataFrame:
+def build_regression_dataset(
+    events: pd.DataFrame,
+    event_time: pd.DataFrame,
+    pre_volatility_start: int = -150,
+    pre_volatility_end: int = -31,
+) -> pd.DataFrame:
     cars = pd.concat(
         [
             car_window(event_time, -3, -1),
@@ -140,7 +179,10 @@ def build_regression_dataset(events: pd.DataFrame, event_time: pd.DataFrame) -> 
         axis=1,
     ).reset_index()
     pre_vol = (
-        event_time[(event_time["relative_day"] >= -20) & (event_time["relative_day"] <= -2)]
+        event_time[
+            (event_time["relative_day"] >= pre_volatility_start)
+            & (event_time["relative_day"] <= pre_volatility_end)
+        ]
         .groupby("event_id")["return"]
         .std()
         .rename("pre_event_volatility")
@@ -153,11 +195,180 @@ def build_regression_dataset(events: pd.DataFrame, event_time: pd.DataFrame) -> 
     return reg
 
 
+def p_value_stars(p_value: float | None) -> str:
+    if p_value is None or pd.isna(p_value):
+        return ""
+    if p_value < 0.01:
+        return "***"
+    if p_value < 0.05:
+        return "**"
+    if p_value < 0.10:
+        return "*"
+    return ""
+
+
+def format_coefficient(coefficient: float | None, std_error: float | None, p_value: float | None) -> str:
+    if coefficient is None or std_error is None or pd.isna(coefficient) or pd.isna(std_error):
+        return ""
+    return f"{coefficient:.4f}{p_value_stars(p_value)} ({std_error:.4f})"
+
+
+def pretty_term(term: str) -> str:
+    if term == "severity_score":
+        return "Severity score"
+    if term == "pre_event_volatility":
+        return "Pre-event volatility"
+    if term.startswith("C(topic)[T.") and term.endswith("]"):
+        return "Topic: " + term.replace("C(topic)[T.", "").rstrip("]")
+    if term.startswith("C(topic)[") and term.endswith("]"):
+        return "Topic: " + term.replace("C(topic)[", "").rstrip("]")
+    if term.startswith("C(industry)[T.") and term.endswith("]"):
+        return "Industry: " + term.replace("C(industry)[T.", "").rstrip("]")
+    if term.startswith("C(industry)[") and term.endswith("]"):
+        return "Industry: " + term.replace("C(industry)[", "").rstrip("]")
+    return term
+
+
+def coefficient_group(term: str) -> str:
+    if term.startswith("C(topic)["):
+        return "topic"
+    if term == "severity_score":
+        return "main_variable"
+    if term == "pre_event_volatility":
+        return "control"
+    if term.startswith("C(industry)["):
+        return "industry_control"
+    return "other"
+
+
+def regression_formula(outcome: str, spec: dict[str, Any]) -> tuple[str, list[str]]:
+    terms = ["0 + C(topic)", "severity_score"]
+    required = [outcome, "topic", "severity_score"]
+    if spec["include_pre_event_volatility"]:
+        terms.append("pre_event_volatility")
+        required.append("pre_event_volatility")
+    if spec["include_industry"]:
+        terms.append("C(industry)")
+        required.append("industry")
+    return f'Q("{outcome}") ~ ' + " + ".join(terms), required
+
+
+def run_suite_ols(
+    regression_dataset: pd.DataFrame,
+    outcome: str,
+    outcome_label: str,
+    spec: dict[str, Any],
+) -> tuple[pd.DataFrame, dict[str, Any]]:
+    formula, required = regression_formula(outcome, spec)
+    regression_input = regression_dataset[regression_dataset["regression_inclusion_status"] == "included"].copy()
+    regression_input = regression_input.dropna(subset=required)
+    model_id = f"{outcome}__{spec['spec_id']}"
+    base_model_row = {
+        "model_id": model_id,
+        "outcome": outcome,
+        "outcome_label": outcome_label,
+        "spec_id": spec["spec_id"],
+        "spec_label": spec["spec_label"],
+        "include_pre_event_volatility": spec["include_pre_event_volatility"],
+        "include_industry": spec["include_industry"],
+        "topic_parameterization": "no_intercept_all_topic_coefficients",
+        "formula": formula,
+        "n_obs": int(len(regression_input)),
+    }
+
+    if len(regression_input) < 3 or regression_input["topic"].nunique(dropna=True) < 2:
+        reason = "fewer_than_3_observations_or_fewer_than_2_topics"
+        coefficients = pd.DataFrame(
+            [
+                {
+                    **base_model_row,
+                    "term": "not_run",
+                    "term_label": "not_run",
+                    "term_group": "not_run",
+                    "coefficient": None,
+                    "std_error": None,
+                    "t_stat": None,
+                    "p_value": None,
+                    "coefficient_display": "",
+                    "reason": reason,
+                }
+            ]
+        )
+        return coefficients, {**base_model_row, "status": "not_run", "reason": reason}
+
+    model = smf.ols(formula, data=regression_input).fit(cov_type="HC1")
+    coefficients = pd.DataFrame(
+        {
+            **base_model_row,
+            "term": model.params.index,
+            "coefficient": model.params.values,
+            "std_error": model.bse.values,
+            "t_stat": model.tvalues.values,
+            "p_value": model.pvalues.values,
+        }
+    )
+    coefficients["term_label"] = coefficients["term"].map(pretty_term)
+    coefficients["term_group"] = coefficients["term"].map(coefficient_group)
+    coefficients["coefficient_display"] = coefficients.apply(
+        lambda row: format_coefficient(row["coefficient"], row["std_error"], row["p_value"]),
+        axis=1,
+    )
+    coefficients["reason"] = ""
+    model_row = {
+        **base_model_row,
+        "status": "complete",
+        "r_squared": float(model.rsquared),
+        "adj_r_squared": float(model.rsquared_adj),
+        "aic": float(model.aic),
+        "bic": float(model.bic),
+        "reason": "",
+    }
+    return coefficients, model_row
+
+
+def build_regression_suite(regression_dataset: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    coefficient_tables = []
+    model_rows = []
+    for outcome_spec in OUTCOME_WINDOWS:
+        for control_spec in CONTROL_SPECS:
+            coefficients, model_row = run_suite_ols(
+                regression_dataset,
+                outcome=outcome_spec["outcome"],
+                outcome_label=outcome_spec["outcome_label"],
+                spec=control_spec,
+            )
+            coefficient_tables.append(coefficients)
+            model_rows.append(model_row)
+
+    coefficients_long = pd.concat(coefficient_tables, ignore_index=True) if coefficient_tables else pd.DataFrame()
+    model_summary = pd.DataFrame(model_rows)
+
+    display_coefficients = coefficients_long[
+        coefficients_long["term_group"].isin(["topic", "main_variable", "control"])
+    ].copy()
+    display_coefficients["model_column"] = (
+        display_coefficients["outcome_label"] + " | " + display_coefficients["spec_label"]
+    )
+    regression_summary_table = (
+        display_coefficients.pivot_table(
+            index=["term_group", "term_label"],
+            columns="model_column",
+            values="coefficient_display",
+            aggfunc="first",
+            fill_value="",
+        )
+        .reset_index()
+        .sort_values(["term_group", "term_label"])
+    )
+    regression_summary_table.columns.name = None
+    return coefficients_long, model_summary, regression_summary_table
+
+
 def run_ols(regression_dataset: pd.DataFrame, outcome: str) -> pd.DataFrame:
     regression_input = regression_dataset[regression_dataset["regression_inclusion_status"] == "included"].copy()
     topic_n = regression_input["topic"].nunique(dropna=True)
     if len(regression_input) >= 8 and topic_n >= 2:
-        formula = f'Q("{outcome}") ~ severity_score + pre_event_volatility + C(topic)'
+        formula = f'Q("{outcome}") ~ 0 + C(topic) + severity_score + pre_event_volatility'
     else:
         formula = f'Q("{outcome}") ~ severity_score + pre_event_volatility'
 
@@ -195,6 +406,8 @@ def write_outputs(
     event_time_qa: pd.DataFrame,
     regression_dataset: pd.DataFrame,
     events: pd.DataFrame,
+    pre_volatility_start: int,
+    pre_volatility_end: int,
 ) -> StepResult:
     processed_dir = root / "data" / "processed"
     workflow_dir = root / "outputs" / "workflow"
@@ -220,6 +433,9 @@ def write_outputs(
     baseline_regression_path = tables_dir / "baseline_regression.csv"
     regression_pre_path = tables_dir / "regression_CAR_-3_-1.csv"
     regression_drift_path = tables_dir / "regression_CAR_1_60.csv"
+    regression_coefficients_long_path = tables_dir / "regression_coefficients_long.csv"
+    regression_model_summary_path = tables_dir / "regression_model_summary.csv"
+    regression_summary_table_path = tables_dir / "regression_summary_table.csv"
     average_car_plot_path = figures_dir / "average_car_plot.png"
     topic_average_car_plot_path = figures_dir / "topic_average_car.png"
     summary_path = workflow_dir / "07_event_study_regression_summary.json"
@@ -258,16 +474,27 @@ def write_outputs(
         on="event_id",
         how="left",
     )
-    average_car = event_time_labeled.groupby("relative_day", as_index=False).agg(
-        average_CAR=("CAR", "mean"),
-        average_abnormal_return=("abnormal_return", "mean"),
-        n_events=("event_id", "nunique"),
+    average_car = (
+        event_time_labeled.groupby("relative_day", as_index=False)
+        .agg(
+            average_abnormal_return=("abnormal_return", "mean"),
+            n_events=("event_id", "nunique"),
+        )
+        .sort_values("relative_day")
     )
-    topic_average_car = event_time_labeled.groupby(["topic", "relative_day"], as_index=False).agg(
-        average_CAR=("CAR", "mean"),
-        average_abnormal_return=("abnormal_return", "mean"),
-        n_events=("event_id", "nunique"),
+    average_car["average_CAR"] = average_car["average_abnormal_return"].cumsum()
+    average_car = average_car[["relative_day", "average_CAR", "average_abnormal_return", "n_events"]]
+
+    topic_average_car = (
+        event_time_labeled.groupby(["topic", "relative_day"], as_index=False)
+        .agg(
+            average_abnormal_return=("abnormal_return", "mean"),
+            n_events=("event_id", "nunique"),
+        )
+        .sort_values(["topic", "relative_day"])
     )
+    topic_average_car["average_CAR"] = topic_average_car.groupby("topic")["average_abnormal_return"].cumsum()
+    topic_average_car = topic_average_car[["topic", "relative_day", "average_CAR", "average_abnormal_return", "n_events"]]
     topic_car_summary = regression_dataset.groupby("topic", as_index=False).agg(
         n_events=("event_id", "nunique"),
         mean_CAR_pre=("CAR_-3_-1", "mean"),
@@ -300,6 +527,12 @@ def write_outputs(
     baseline_coef.to_csv(baseline_regression_path, index=False)
     pre_coef.to_csv(regression_pre_path, index=False)
     drift_coef.to_csv(regression_drift_path, index=False)
+    regression_coefficients_long, regression_model_summary, regression_summary_table = build_regression_suite(
+        regression_dataset
+    )
+    regression_coefficients_long.to_csv(regression_coefficients_long_path, index=False)
+    regression_model_summary.to_csv(regression_model_summary_path, index=False)
+    regression_summary_table.to_csv(regression_summary_table_path, index=False)
 
     plt.figure(figsize=(10, 6))
     plt.plot(average_car["relative_day"], average_car["average_CAR"])
@@ -329,13 +562,18 @@ def write_outputs(
         "event_time_ok_count": int((event_time_qa["event_time_status"] == "ok").sum()) if not event_time_qa.empty else 0,
         "regression_row_count": int(len(regression_dataset)),
         "regression_included_count": int((regression_dataset["regression_inclusion_status"] == "included").sum()),
+        "regression_suite_model_count": int(len(regression_model_summary)),
         "topic_count": int(regression_dataset["topic"].nunique(dropna=True)),
+        "topic_parameterization": "no_intercept_all_topic_coefficients",
+        "pre_event_volatility_window": f"[{pre_volatility_start},{pre_volatility_end}]",
         "created_at_utc": datetime.now(timezone.utc).isoformat(),
     }
     notes = [
         "Constructed event-time rows using the next available trading day on or after each SEC event date.",
         "Abnormal return is stock return minus benchmark return.",
-        "Regression tables are generated for CAR[-3,-1], CAR[-1,+3], and CAR[+1,+60].",
+        f"Pre-event volatility is measured over relative trading days [{pre_volatility_start},{pre_volatility_end}] to use a longer, earlier, non-overlapping window.",
+        "The official regression suite runs 12 models: 3 CAR windows by 4 control specifications.",
+        "Topic effects use no-intercept topic fixed effects, so each topic has a displayed coefficient.",
     ]
     result = StepResult(
         step_id="07_event_study_regression",
@@ -358,6 +596,9 @@ def write_outputs(
             str(baseline_regression_path.relative_to(root)),
             str(regression_pre_path.relative_to(root)),
             str(regression_drift_path.relative_to(root)),
+            str(regression_coefficients_long_path.relative_to(root)),
+            str(regression_model_summary_path.relative_to(root)),
+            str(regression_summary_table_path.relative_to(root)),
             str(average_car_plot_path.relative_to(root)),
             str(topic_average_car_plot_path.relative_to(root)),
             str(summary_path.relative_to(root)),
@@ -381,8 +622,15 @@ def build_event_study_regression(root: Path | None = None) -> StepResult:
         event_window_start=int(config.get("event_window_start", -3)),
         event_window_end=int(config.get("event_window_end", 60)),
     )
-    regression_dataset = build_regression_dataset(events, event_time)
-    return write_outputs(root, event_time, event_time_qa, regression_dataset, events)
+    pre_volatility_start = int(config.get("pre_event_volatility_start", -150))
+    pre_volatility_end = int(config.get("pre_event_volatility_end", -31))
+    regression_dataset = build_regression_dataset(
+        events,
+        event_time,
+        pre_volatility_start=pre_volatility_start,
+        pre_volatility_end=pre_volatility_end,
+    )
+    return write_outputs(root, event_time, event_time_qa, regression_dataset, events, pre_volatility_start, pre_volatility_end)
 
 
 if __name__ == "__main__":

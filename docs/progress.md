@@ -2,8 +2,8 @@
 
 ## Current Snapshot
 
-- Current task: Convert the V3 notebook prototype into the official project structure and presentation workflow.
-- Current state: Git baseline exists at `d408942`. `Archive Prototype/` retains the completed V3 notebook run. The official root now has `run.py`, `app.py`, `code/`, `configs/`, `data/`, `outputs/`, `pages/`, and `docs/`.
+- Current task: Polish the presentation website after the clean GitHub submission push.
+- Current state: `submission-clean` is the shared GitHub-ready branch. The official root has `run.py`, `app.py`, `code/`, `configs/`, `data/`, `outputs/`, `pages/`, and `docs/`; local-only workflow files remain ignored.
 - Completed:
   - Created the official project structure.
   - Implemented `code/01_sp500_reference.py`.
@@ -40,15 +40,43 @@
   - Updated Final Results to read official outputs instead of archived prototype artifacts.
   - Polished Final Results v1 with topic-selectable CAR, relative-day window control, and a regression playground for CAR window, industry controls, and pre-event volatility controls.
   - Prepared GitHub submission version: added README, ignored personal/local workflow files, removed `Archive Prototype/` from Git tracking while keeping it locally, and made cache-backed steps work from official `data/` caches without archive.
+  - Pushed the clean one-commit `submission-clean` branch to GitHub as `main`.
+  - Polished Final Results v2 by replacing the primary regression view with a three-window regression summary table and keeping full coefficient tables for audit.
+  - Updated event-study methodology documentation to define market-adjusted CAR and justify `pre_event_volatility` as `[-150,-31]`.
+  - Extended event-time construction to start at relative day `-150` and refreshed the market cache to support the longer pre-event volatility window.
+  - Added a visible regression-ready analysis dataset table to Final Results, with filters for inclusion status, topic, industry, and ticker.
+  - Cleaned the Streamlit sidebar structure by merging Research Design into the overview page and removing redundant homepage sections.
+  - Replaced the S&P 500 reference table's large multiselect chip filters with compact dependent sector/sub-industry dropdown filters.
+  - Streamlined the SEC Raw Download tab into one compact KPI summary table, one filterable raw-cache inventory table, and source-folder notes.
+  - Streamlined the Filing to Thread tab into one compact non-duplicative summary table, one filterable thread-level dataset, one filing-role summary table, and explanatory notes.
+  - Added `thread_id` source and thread-membership grouping explanations to the SEC Raw Download and Filing to Thread tabs.
+  - Moved Filing to Thread notes into an expander and clarified the SEC correspondence signals used to identify thread membership.
+  - Streamlined the Event Dataset tab around the official event-level base table, compact event summary, and explanatory notes.
+  - Streamlined the Text Features tab around the official event-level text-feature table, topic/severity summaries, and separate algorithm explainers.
+  - Expanded the severity scoring explanation with the z-score formula, amendment indicator definition, current score range, and bucket cutoffs.
+  - Expanded the topic classifier explanation with predefined regex topic pattern focuses and topic-detail-to-analysis-topic mapping.
+  - Streamlined the Market Data tab around the official daily market panel, compact market summary, ticker coverage table, and explanatory notes.
+  - Streamlined the Event Study & Regression tab around the official event-time panel, regression-ready dataset, and grouped methodology notes.
+  - Removed the Background & Methods `Full Code Example` tab to keep the presentation workflow focused on the seven data/process steps.
+  - Moved Final Results static figures into a collapsible section inside the Topic CAR page and removed the standalone Static Figures tab.
+  - Polished Final Results Topic CAR with compact dropdown filtering, three-window CAR summary display, and Altair charts with event-day and zero-CAR reference lines.
+  - Aligned Topic CAR chart display with window-CAR interpretation by resetting cumulative CAR at the selected window start and formatted CAR-window summary values as percentages.
+  - Updated Step 7 output generation so average CAR and topic-average CAR are computed by cumulatively summing average abnormal returns, then regenerated event-study outputs.
+  - Removed the redundant Final Results `Result Tables` tab while keeping the underlying output files available for audit.
+  - Added a collapsible `Why Regression Matters` explanation to the Final Results regression tab.
+  - Added the official 12-model regression suite: 3 CAR windows by 4 control specifications, using no-intercept topic coefficients.
+  - Reworked the Final Results regression presentation around backend 12-model outputs, with CAR-window tabs, compact coefficient summaries, model diagnostics, and audit expanders.
+  - Removed the redundant backend regression summary expander from the Final Results regression page.
+  - Added numeric result conclusions to Topic CAR and Regression Playground, tying results back to the research question and hypotheses.
   - Created the first Streamlit workflow page with a Step 1 table preview, sector summary, output-file list, and QA notes.
   - Updated the presentation design to match the instructor-style structure: sidebar pages plus horizontal tabs under Background & Methods.
   - Recorded the paired-format policy: CSV/JSON for human validation, Parquet for efficient pandas/Streamlit loading.
   - Recorded shared raw-cache, optional full S&P 500 extension, and limited regression-control decisions.
   - Added project structure and decision docs.
 - Active blockers:
-  - Reference Streamlit app structure could not be inspected through non-JS web scraping; user may provide screenshots for visual/page-order alignment.
+  - None.
 - Next step:
-  - Add a GitHub remote and push the clean submission branch/repo.
+  - Review the streamlined overview, Background & Methods, and Final Results pages, then commit and push the polish update.
 - Key files:
   - `run.py`
   - `app.py`
@@ -62,6 +90,7 @@
   - `configs/sample_100_10y.json`
   - `configs/text_feature_config.json`
   - `pages/01_Background_and_Methods.py`
+  - `pages/02_Final_Results.py`
   - `docs/project_structure.md`
   - `docs/decisions.md`
   - `docs/progress.md`
